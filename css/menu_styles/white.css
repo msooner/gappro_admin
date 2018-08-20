@@ -1,0 +1,19 @@
+#icon-menu > ul > li > a, .icon-menu > ul > li > span {
+    color: #ccc;
+}
+
+#icon-menu > ul > li.circle a img {
+	-o-box-shadow: 1px 1px 5px #000, -1px -1px 5px #000;
+    -ms-box-shadow: 1px 1px 5px #000, -1px -1px 5px #000;
+    -moz-box-shadow: 1px 1px 5px #000, -1px -1px 5px #000;
+    -webkit-box-shadow: 1px 1px 5px #000, -1px -1px 5px #000;
+    box-shadow: 1px 1px 5px #000, -1px -1px 3px #000;
+}
+
+#main_wrapper {
+	border-top: 1px solid #ccc;
+}
+
+#top-menu li a:hover { 
+	color: #ccc;
+}

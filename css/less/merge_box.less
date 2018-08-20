@@ -1,0 +1,53 @@
+.merge-box {
+    width: 27.5%;
+    padding: 8px;
+    text-align: center;
+    font-size: 1em;
+    margin-bottom: 20px;
+    .rounded-corners;
+    .border-black;
+    // .shadow-black;
+    .background-black(#222222, 0.2);
+
+    &:hover {
+        .background-black(#272727, 0.1);
+        cursor: pointer;
+    }
+}
+
+.merge-box .bad {
+    color: red;
+    font-weight: bold;
+}
+
+.merge-box .good {
+    color: orange;
+    font-weight: bold;
+}
+
+.merge-box .nice {
+    color: green;
+    font-weight: bold;
+}
+
+.merge-box .number {
+    color: #999;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.merge-box .text {
+    color: #999;
+}
+
+.merge-box .link {
+    color: #999;
+    width: 20px;
+    height: 20px;
+    float: right;
+    background-color: #1b1b1b;
+    .rounded-corners(200px);
+}
+
+.merge-box .link + .dropdown-menu {
+    font-size: 0.8em;
+}

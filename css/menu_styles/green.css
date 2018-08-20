@@ -1,0 +1,19 @@
+#icon-menu > ul > li > a, .icon-menu > ul > li > span {
+    color: #80c217;
+}
+
+#icon-menu > ul > li.circle a img {
+	-o-box-shadow: 1px 1px 5px #80c217, -1px -1px 5px #80c217;
+    -ms-box-shadow: 1px 1px 5px #80c217, -1px -1px 5px #80c217;
+    -moz-box-shadow: 1px 1px 5px #80c217, -1px -1px 5px #80c217;
+    -webkit-box-shadow: 1px 1px 5px #80c217, -1px -1px 5px #80c217;
+    box-shadow: 1px 1px 5px #80c217, -1px -1px 3px #80c217;
+}
+
+#main_wrapper {
+	border-top: 1px solid #80c217;
+}
+
+#top-menu li a:hover { 
+	color: #80c217;
+}

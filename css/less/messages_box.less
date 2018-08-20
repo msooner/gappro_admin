@@ -1,0 +1,49 @@
+// messages box
+
+#messages-box {
+    font-size: 12px;
+    width: 300px;
+    height: 274px;
+    padding: 4px;
+    border: 1px solid #1b1b1b; 
+    color: #999;
+}
+
+#messages-box li {
+    display: block;
+    line-height: 30px;
+    padding: 4px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #272727;
+    .background-black(#272727, 0.1);
+
+    &:hover {
+        .background-black(#202020, 0.3);
+        cursor: pointer;
+    }
+}
+
+#messages-box li:first-child { 
+    .top-rounded-corners;
+}
+
+#messages-box li:last-child { 
+    .bottom-rounded-corners;
+}
+
+#messages-box li span.time { 
+    float: right;
+    color: #666;
+}
+
+#messages-box li span.content { 
+    color: #999; 
+}
+
+#messages-box li img {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-right: 6px;
+    .rounded-corners(200px);
+}

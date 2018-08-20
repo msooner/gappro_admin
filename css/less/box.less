@@ -1,0 +1,49 @@
+// box ui
+
+ul.box {
+	max-width: 100%;
+	.border-black;
+	.background-black(#222222, 0.2);
+	.rounded-corners;
+	list-style-type: none;
+	margin-left: 0px;
+ 	// .shadow-black;
+ 	overflow: hidden;
+}
+
+ul.box li {
+	margin: 0px;
+	.border-bottom(#272727, 0.1);
+	margin: 0px;
+	padding: 8px;
+	overflow: hidden;
+
+	&.nice {color: @success-color;}
+	&.bad  {color: @danger-color;}
+}
+
+ul.box li:not(.title) {
+	&:hover {
+		.background-black(#272727, 0.1);
+		cursor: pointer;
+	}
+}
+
+ul.box li.title,ul.box li .title {text-align: center;}
+ul.box li .sub,ul.box li .foot {color: #666; font-size: 0.8em;}
+ul.box li .foot {font-style: italic;}
+ul.box li .light {color: #fff;}
+ul.box li .number {font-size: 1.5em; text-align: center; color: #fff;}
+ul.box li .flag {position: relative; left: 85%; top: -45px;}
+
+ul.box li img { 
+	float: left;
+	margin-right: 4px;
+}
+
+ul.box li:last-child {
+	border-bottom: 0px;
+}
+
+ul.box li .widget {margin-bottom: 0px;}
+ul.box li .widget > .widget-content {padding-top: 0px;padding-bottom: 10px;}

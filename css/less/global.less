@@ -1,0 +1,44 @@
+html {overflow-y: scroll;}
+
+/* chrome */
+::-webkit-scrollbar { width: 3px; height: 3px;}   
+::-webkit-scrollbar-track-piece { background-color: #1b1b1b;}   
+::-webkit-scrollbar-thumb{height: 50px; background-color: #999; -webkit-border-radius: 3px;}
+
+body {
+    font-family: 'Sintony', sans-serif;
+    font-weight: 400;
+    overflow: visible; 
+    padding-top: 0px;
+    background-color: #000;
+    color: #999;
+    font-size: 0.95em;
+
+    background: url("../img/body.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../img/body.png");
+}
+
+hr {
+    clear: both;
+    // border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 0; 
+    height: 1px; 
+    background-image: -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0,0,0,0)), color-stop(0.5, rgba(0,0,0,0.5)), to(rgba(0,0,0,0)));
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.5), rgba(0,0,0,0));
+    background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.5), rgba(0,0,0,0));
+    background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.5), rgba(0,0,0,0));
+    background-image: linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.5), rgba(0,0,0,0));  
+}
+
+
+.h150 {height: 150px;}
+.h200 {height: 200px;}
+.h250 {height: 250px;}
+.h300 {height: 300px;}
+.h350 {height: 350px;}
+.h450 {height: 450px;}
+
+a {
+    color: @link-color;
+    &:hover,&:focus {text-decoration: none;}
+}

@@ -1,0 +1,1622 @@
+<!doctype html>
+<head>
+<meta charset="utf-8">
+<title>Gappro - Admin Theme Template for Backend Applications.</title>
+<link href='http://fonts.googleapis.com/css?family=Sintony' rel='stylesheet' type='text/css'>
+<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap-responsive.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet" media="screen">
+<link href="css/style-responsive.css" rel="stylesheet" media="screen">
+<link href="css/font_awesome/font-awesome.min.css" rel="stylesheet" media="screen">
+<link href="css/responsive_tables/responsive-tables.css" rel="stylesheet" media="screen">
+<link href="css/mCustomScrollbar/jquery.mCustomScrollbar.css" rel="stylesheet" media="screen">
+<link href="css/jqvmap/jqvmap.css" rel="stylesheet" media="screen">
+<link href="css/prettify/sons-of-obsidian.css" rel="stylesheet" media="screen">
+<link href="css/joyride/joyride-2.0.3.css" rel="stylesheet" media="screen">
+<link href="css/leaderboard/jquery.leaderboard-1.0.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap_switch/bootstrapSwitch.css" rel="stylesheet" media="screen">
+<meta name="description" content="admin theme template for any backend applications.">
+<meta name="author" content="boostbob.github.com">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+
+<body>
+<div class="navbar navbar-inverse">
+	<div class="navbar-inner">
+		<div class="container-fluid">
+			<div class="row-fluid">
+
+				<div class="span8">
+					<a href="index.html">
+						<img class="brand" src="img/logo.png" alt="">
+					</a>
+					
+					<form class="form-search">
+						<input type="text" placeholder="keywords" class="input-medium search-query">
+						<button type="submit" class="btn">Search</button>
+
+					    <div class="btn-group">
+						    <a class="btn dropdown-toggle btn-warning" data-toggle="dropdown" href="#">
+						    	<span><i class="icon-bell"></i></span>
+						    </a>
+						    <ul class="dropdown-menu" id="messages-box">
+						    	<li>
+						    		<img src="img/avatar2.jpg" alt="">
+						    		<span class="time">6 mintues ago</span><br>
+						    		<span class="content">Lorem ipsum et consectetur officia veniam... </span>
+						    	</li>
+						    	<li>
+						    		<img src="img/avatar4.jpg" alt="">
+						    		 <span class="time">12 mintues ago</span><br>
+						    		<span class="content">Lorem ipsum et consectetur officia veniam... </span>
+						    	</li>
+						    	<li>
+						    		<img src="img/avatar6.jpg" alt="">
+									<span class="time">20 mintues ago</span><br>
+						    		<span class="content">Lorem ipsum et consectetur officia veniam... </span>
+						    	</li>
+						    	<li>
+						    		<img src="img/avatar8.jpg" alt="">
+						    		<span class="time">25 mintues ago</span><br>
+						    		<span class="content">Lorem ipsum et consectetur officia veniam... </span>
+						    	</li>
+						    </ul>
+						</div>
+					</form>
+				</div>
+
+				<div class="span4">
+					<ul id="top-menu">
+						<li>
+							<div class="btn-group">
+								<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+									<i class="icon-edit"></i>
+									<span>Notes</span>
+									<span class="label label-success">2</span>
+								</a>
+								<ul class="dropdown-menu">
+									<li><a tabindex="-1" href="#"><i class="icon-linkedin"></i> Linkedin</a></li>
+									<li><a tabindex="-1" href="#"><i class="icon-google-plus"></i> Google+</a></li>
+									<li class="divider"></li>
+									<li><a tabindex="-1" href="#"><i class="icon-refresh"></i> Sync Data</a></li>
+								</ul>	
+							</div>
+						</li>
+						<li>
+							<div class="btn-group">
+							    <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+							    	<i class="icon-group"></i>
+							    	<span>Groups</span>
+							    	<span class="label label-success">4</span>
+							    </a>
+							    <ul class="dropdown-menu">
+							    	<li><a tabindex="-1" href="#"><i class="icon-facebook"></i> Facebook</a></li>
+									<li><a tabindex="-1" href="#"><i class="icon-twitter"></i> Twitter</a></li>
+									<li><a tabindex="-1" href="#"><i class="icon-github"></i> Github</a></li>
+									<li class="divider"></li>
+									<li><a tabindex="-1" href="#"><i class="icon-trash"></i> Separated link</a></li>
+							    </ul>
+							</div>
+						</li>
+						<li>
+							<a href="javascript:void(0)" class="btn">
+								<i class="icon-eye-open"></i>
+								<span>Website</span>
+							</a>
+						</li>
+						<li>
+							<a href="login.html" class="btn">
+								<i class="icon-off"></i>
+								<span>Logout</span>
+							</a>
+						</li>
+					</ul>
+				</div>	
+
+			</div>
+
+			<div id="config-box">
+				<a href="javascript:void(0)" class="btn config-button"><i class="icon-cog"></i></a>
+				<div class="btn-group">
+	                <button class="btn"><i class="icon-refresh"></i> Menu Themes</button>
+	                <button data-toggle="dropdown" class="btn btn-inverse dropdown-toggle">
+	                  <span class="caret"></span>
+	                </button>
+	                <ul class="dropdown-menu" id="menu_colors">
+	                  <li><a href="#" data-color="pink">PINK</a></li>
+	                  <li><a href="#" data-color="green">GREEN</a></li>
+	                  <li><a href="#" data-color="grey">GREY</a></li>
+	                  <li><a href="#" data-color="white">WHITE</a></li>
+	                  <li><a href="#" data-color="orange">ORANGE</a></li>
+	                  <li><a href="#" data-color="blue">BLUE</a></li>
+	                  <li><a href="#" data-color="gold">GOLD</a></li>
+	                  <li><a href="#" data-color="black">DEFAULT</a></li>
+	                </ul>
+	            </div>
+	            <h4>Backgournd:</h4>
+	            <ul id="backgrounds">
+	            	<li><a href="javascript:void(0)"><img src="img/backgrounds/1.jpg" alt=""></a></li>
+	            	<li><a href="javascript:void(0)"><img src="img/backgrounds/2.jpg" alt=""></a></li>
+	            	<li><a href="javascript:void(0)"><img src="img/backgrounds/3.jpg" alt=""></a></li>
+	            	<li><a href="javascript:void(0)"><img src="img/backgrounds/4.jpg" alt=""></a></li>
+	            	<li><a href="javascript:void(0)"><img src="img/backgrounds/5.jpg" alt=""></a></li>
+	            	<li><a href="javascript:void(0)"><img src="img/backgrounds/6.jpg" alt=""></a></li>
+	            	<li><a href="javascript:void(0)"><img src="img/backgrounds/7.jpg" alt=""></a></li>
+	            	<li><a href="javascript:void(0)"><img src="img/backgrounds/8.jpg" alt=""></a></li>
+	            	<li><a href="javascript:void(0)"><img src="img/backgrounds/9.jpg" alt=""></a></li>
+	            	<li><a href="javascript:void(0)"><img src="img/backgrounds/10.jpg" alt=""></a></li>
+	            	<li><a href="javascript:void(0)"><img src="img/backgrounds/11.jpg" alt=""></a></li>
+	            	<li><a href="javascript:void(0)"><img src="img/backgrounds/12.jpg" alt=""></a></li>
+	            </ul>
+	            <h4>Menu Sub Trigger:</h4>
+	        	<ul id="menu-trigger">
+	        		<li><a href="javascript:void(0)" class="btn" data-trigger="click">Click</a></li>
+	        		<li><a href="javascript:void(0)" class="btn" data-trigger="mouseover">Hover</a></li>
+	        	</ul>
+	            <h4>Menu Background:</h4>
+	            <ul id="menu-backgrounds">
+	            	<li><a href="javascript:void(0)"><img src="img/backgrounds/menu1.png" alt=""></a></li>
+	            	<li><a href="javascript:void(0)"><img src="img/backgrounds/menu2.png" alt=""></a></li>
+	            	<li><a href="javascript:void(0)"><img src="img/backgrounds/menu3.png" alt=""></a></li>
+	            	<li><a href="javascript:void(0)"><img src="img/backgrounds/menu4.png" alt=""></a></li>
+	            </ul>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid" id="main_wrapper">
+	<div class="row-fluid">
+		<div class="span2" id="sidebar">
+			<div id="icon-menu">
+				<ul>
+					<li class="circle">
+						<a href="profile.html" title="Profile">
+							<img src="img/avatar9.jpg" alt="">		
+						</a>
+					</li>
+					<li class="filter-box">
+						<input type="text" id="menuitem-filter" placeholder="e.g. widget">
+					</li>
+					<li class="menu-controller">
+						<a id="btn-menu-controller" href="javascript:void(0)">
+							<span><i class="icon-angle-up"></i></span>
+						</a>
+					</li>
+					<li class="current" data-keywords="home,dashboard,index,default,entry">
+						<a href="index.html" title="Dashboard">
+							<i class="icon-home"></i> <span>Home</span>
+						</a>
+					</li>
+					<li data-keywords="widget,window,block,ui">
+						<a href="widget.html" title="Widget" id="widget-menu">
+							<i class="icon-th-large"></i> <span>Widget</span>
+						</a>
+					</li>
+					<li data-keywords="table,data,rowlink,list,ui">
+						<a href="tables.html" title="Tables">
+							<i class="icon-th-list"></i> <span>Tables</span>
+						</a>
+					</li>
+					<li data-keywords="chart,pie,bar,line,speakline,dynamic,donut,stacked">
+						<a href="charts.html" title="Charts">
+							<i class="icon-bar-chart"></i> <span>Charts</span>
+						</a>
+					</li>
+					<li data-keywords="forms,editor,wizard,validate,editable,slider,ui">
+						<a href="forms.html" title="Forms">
+							<i class="icon-credit-card"></i> <span>Forms</span>
+							<span class="label label-success">5</span>
+						</a>
+						<ul class="sub-menus">
+							<li><a href="forms.html" title="Forms"> <span>Elements</span> </a> </li>
+							<li><a href="editor.html" title="Editor"> <span>Editor</span> </a> </li>
+							<li><a href="wizard.html" title="Wizard"> <span>Wizard</span> </a> </li>
+							<li><a href="validator.html" title="Validator"> <span>Validator</span> </a> </li>
+							<li><a href="editable.html" title="Editable"> <span>Editable</span> </a> </li>
+							<li><a href="javascript:void(0)" title="Sub Link">Sub Link</a></li>
+						</ul>
+					</li>
+					<li data-keywords="ui,table,interface,gallery,box,block,widget,timeline,grid">
+						<a href="ui.html" title="UI">
+							<i class="icon-camera"></i> <span>Interfaces</span>
+							<span class="label label-success">12</span>
+						</a>
+						<ul class="sub-menus">
+							<li><a href="ui.html" title="UI"> <span>Elements</span> </a> </li>
+							<li><a href="attr.html" title="Attr Box"> <span>Attr Box</span> </a></li>
+							<li><a href="cal.html" title="Calendar">Calendar</a></li>
+							<li><a href="buttons.html" title="Buttons"> <span>Buttons</span> </a> </li>
+							<li><a href="grid.html" title="Grid"> <span>Grid</span> </a> </li>
+							<li><a href="timeline.html" title="jQuery Timeline"><span>Timeline</span></a></li>
+							<li><a href="tabs.html" title="Tab">Tabs</a></li>
+							<li><a id="btn-tour" href="javascript:void(0)" title="Tour Guide">Guide Tour</a></li>
+							<li><a href="sliders.html" title="Sliders">Sliders</a></li>
+							<li><a href="noty.html" title="Notifications">Notifications</a></li>
+							<li><a href="accordion.html" title="Accordion">Accordion</a></li>
+							<li><a href="faq.html" title="FAQ">FAQ</a></li>
+						</ul>	
+					</li>
+					<li data-keywords="wizard,typo,text,font">
+						<a href="typography.html" title="Typography">
+							<i class="icon-font"></i> <span>Typography</span>
+						</a>
+					</li>
+					<li data-keywords="widget,post,quick,forms">
+						<a href="javascript:void(0)">
+							<i class="icon-plane"></i> <span>Quick Post</span>
+						</a>
+						<div class="quick-widget">
+							<div class="widget">
+								<div class="widget-content">
+									<input type="text" placeholder="nick usernames" value="@joe, @lisa, @kity"><br>
+									<textarea rows="2" cols="120" id="message" name="message">The quick brown fox jump over the lazy dog.</textarea><br>
+									<a href="javascript:void(0)" id="btn-send" class="btn"><i class="icon-flag"></i> Send Messages</a> 
+								</div>
+							</div>
+						</div>
+					</li>					
+					<li data-keywords="quick,widget,ui,tab">
+						<a href="javascript:void(0)">
+							<i class="icon-lightbulb"></i> <span>Server Load</span>
+						</a>
+						<div class="quick-widget">
+							
+					  		<div class="tabbable">
+				                <ul class="nav nav-tabs">
+				                  <li class="active">
+				                     <a href="#load" data-toggle="tab">
+				                     	<i class="icon-beaker"></i>
+				                     	Request
+				                     </a>
+				                  </li>
+				                  <li>
+				                    <a href="#hello" data-toggle="tab">
+				                    	<i class="icon-pencil"></i>
+				                    	Message
+				                    </a>
+				                  </li>
+				                </ul>
+				                <div class="tab-content">
+				                  <div class="tab-pane active" id="load">
+				                    <div id="server_request" style="width:320px; height: 180px;"></div>
+				                  </div>
+				                  <div class="tab-pane" id="hello">
+				                    <div style="width:320px; height: 180px;">
+				                    	<h1>Hi, Sir: </h1>
+				                    	<p>Please don't forget to check all the pages features, Thank you.</p>
+				                    	<img src="img/icons/splash_green.png" alt=""> 
+				                    </div>
+				                  </div>
+				                </div>
+							</div>
+
+						</div>
+					</li>	
+					<li data-keywords="gallery,login,profile,403,404,error,starter">
+						<a href="javascript:void(0)" title="Extra">
+							<i class="icon-legal"></i> <span>Extra</span>
+							<span class="label label-success">6</span>
+						</a>
+						<ul class="sub-menus">
+							<li><a href="gallery.html" title="Gallery"><i class="icon-picture"></i> Gallery</a></li>	
+							<li><a href="login.html" title="login"><i class="icon-user"></i> Login</a></li>	
+							<li><a href="profile.html" title="profile"><i class="icon-cog"></i> Profile</a></li>	
+							<li><a href="404.html" title="404"><i class="icon-eye-close"></i> 404</a></li>	
+							<li><a href="tickets.html" title="Tickets"><i class="icon-list"></i> Tickets</a></li>
+							<li><a href="starter.html" title="Starter"><i class="icon-question-sign"></i> Starter</a></li>
+						</ul>
+					</li>
+					<li data-keywords="profile,settings,custom,modal,personal">
+						<a href="#settings" role="button" data-toggle="modal" data-target="#settings">
+							<i class="icon-cog"></i> <span>Settings</span>
+						</a>
+						<div id="settings" class="modal hide fade" tabindex="-1" role="dialog"> 
+							<div class="modal-header"> 
+								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button> 
+								<h3 id="myModalLabel">
+									Config Box
+								</h3> 
+							</div> 
+							<div class="modal-body"> 
+								<div class="small-text">
+									<img src="img/icons/advanced.png" alt=""> 
+									Lorem ipsum Non qui pariatur mollit consequat qui Ut exercitation enim in qui.
+								</div>
+								<hr>
+								<form class="form-horizontal" id="basic-form" method="get">
+				                    <div class="control-group">
+				                      <label class="control-label">Firstname (required)</label>
+				                      <div class="controls">
+				                        <input type="text" name="firstname" id="firstname" placeholder="lisa" required>
+				                      </div>
+				                    </div>
+
+				                    <div class="control-group">
+				                      <label class="control-label">lastname (required)</label>
+				                      <div class="controls">
+				                        <input type="text" name="lastname" id="lastname" placeholder="joe" required>
+				                      </div>
+				                    </div>
+
+				                    <div class="control-group">
+				                      <label class="control-label">email (required)</label>
+				                      <div class="controls">
+				                        <input name="email" id="email" type="email" placeholder="lisa@abc.com" required>
+				                      </div>
+				                    </div>
+
+				                    <div class="control-group">
+				                      <label class="control-label">Comment (requied)</label>
+				                      <div class="controls">
+				                        <textarea name="comment" id="comment" placeholder="balbal blala..." required></textarea>  
+				                      </div>
+				                    </div>
+
+				                    <div class="form-actions">
+				                      <button type="submit" class="btn btn-primary" data-dismiss="modal" aria-hidden="true">Save changes</button>
+				                      <button type="button" class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
+				                    </div>
+
+				                  </form> 					
+							</div> 
+
+							<div class="modal-footer">
+								04/2013 08:23
+							</div>
+						</div>
+					</li>
+					<li data-keywords="tour,gide,wizard">
+						<a href="javascript:void(0)" id="btn-tour-take">
+							<i class="icon-signin"></i>
+							<span>Take a Tour</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<hr>
+			<div id="workspace">
+				<ul class="box">
+					<li class="title">Useful Links</li>
+					<li>
+						<img src="img/icons/user.png" alt="">
+						<a href="javascript:void(0)">User Rights</a>
+						<div class="sub">Lorem ipsum Velit est sunt exercitation.</div>
+					</li>
+					<li>
+						<img src="img/icons/process.png" alt="">
+						<a href="javascript:void(0)">Posts Manage</a>
+						<div class="sub">Lorem ipsum Velit est sunt exercitation.</div>
+					</li>
+					<li>
+						<img src="img/icons/product.png" alt="">
+						<a href="javascript:void(0)">Products List</a>
+						<div class="sub">Lorem ipsum Velit est sunt exercitation.</div>
+					</li>
+				</ul>
+
+				<hr>
+
+				<ul class="box">
+					<li>
+						<span>Space</span>
+						<span class="pull-right">550M / 1GB</span>
+						<div class="progress progress-info">
+							<div class="bar" style="width: 55%;"></div>
+						</div>
+					</li>
+					<li>
+						<span>Memory Free</span>
+						<span class="pull-right">30M</span>
+						<div class="progress progress-danger">
+							<div class="bar" style="width: 90%;"></div>
+						</div>
+					</li>
+					<li>
+						<div class="title">Orders</div>
+						<div id="sl_bar" style="text-align:center"></div>
+						<div>Total <span class="light pull-right">+3,732</span></div>
+					</li>
+					<li>
+						<div class="title">Visitors</div>
+						<div id="sl_line" style="text-align:center"></div>
+						<div>Total <span class="light pull-right">+3,583</span></div>
+						<div>New <span class="light pull-right">+35.8%</span></div>
+						<div>Returned <span class="light pull-right">+55.6%</span></div>
+					</li>
+				</ul>
+
+				<div>
+					<hr>
+					<a id="btn-restore-all" href="javascript:void(0)" class="btn btn-success"><i class="icon-plus"></i> Restore All</a>
+					<a href="javascript:void(0)" class="btn"><i class="icon-arrow-right"></i> Lisa Joe<img class="pull-right" src="img/active.png" alt=""></a>
+					<a href="javascript:void(0)" class="btn"><i class="icon-arrow-right"></i> Lisa Kity<img class="pull-right" src="img/suspended.png" alt=""></a>
+				</div>
+			</div>
+		</div>
+
+		<div class="span10" id="main">
+			<!--main section-->
+			<div class="row-fluid">
+				<div class="breadcrumbs-title">
+					Welcome, stranger!
+					<div class="pull-right">
+						<img src="img/icons/bestseller.png" alt="">
+						<span>Balance: $927</span>
+					</div>
+					<div class="sub">
+						Lorem ipsum Esse adipisicing sed fugiat deserunt exercitation ut est aute aliqua amet reprehenderit voluptate irure consequat tempor cupidatat tempor mollit.
+					</div>
+				</div>
+				<ul id="breadcrumbs">
+					<li>
+						<a href="index.html">
+							<span>Home <i class="icon-angle-right"></i></span>
+						</a>
+					</li>
+					<li>
+						<a href="index.html">
+							<span>Path Here <i class="icon-angle-right"></i></span>
+						</a>
+					</li>
+					<li>
+						<a href="index.html">
+							<span>Dashboard</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<ul class="box">
+				<li>
+					<div class="circle-link-container">
+						<a href="javascript:void(0)" class="circle-link" title="Orders Overview" data-toggle="popover" data-content="568 Total, +373 today, +35% new, +55% retunred, +%5 rejected." data-placement="top">
+							<i class="icon-shopping-cart"></i>
+							<span class="link-title">Orders</span>
+						</a>
+						<a href="javascript:void(0)" class="circle-link" title="Posts Overview" data-toggle="popover" data-content="80 Total, 35 disabled, 40 avaiable, 5 trash." data-placement="top">
+							<i class="icon-edit"></i>
+							<span class="link-title">Create Post</span>
+						</a>
+						<a href="javascript:void(0)" class="circle-link" title="Email Overview" data-toggle="popover" data-content="You have 6 unread emails." data-placement="top">
+							<i class="icon-envelope-alt"></i>
+							<span class="link-title">Write Email</span>
+						</a>
+						<a href="javascript:void(0)" class="circle-link link-info" title="Backup Overview" data-toggle="popover" data-content="Last backup at 10/04/2013 8:23." data-placement="top">
+							<i class="icon-cloud-upload"></i>
+							<span class="link-title">Sync File</span>
+						</a>
+						<a href="javascript:void(0)" class="circle-link link-warning" title="Comments Overview" data-toggle="popover" data-content="273 comments neeed to be check." data-placement="top">
+							<i class="icon-comments"></i>
+							<span class="link-title">Comments</span>
+						</a>
+						<a href="javascript:void(0)" class="circle-link link-success" title="User Overview" data-toggle="popover" data-content="283 New Registers, 28 blocked." data-placement="top">
+							<i class="icon-key"></i>
+							<span class="link-title">User Rights</span>
+						</a>
+						<a href="javascript:void(0)" class="circle-link link-danger" title="Tickets Overview" data-toggle="popover" data-content="28 tickets assigned to you." data-placement="top">
+							<i class="icon-gift"></i>
+							<span class="link-title">Tickets</span>
+						</a>
+						<a href="javascript:void(0)" class="circle-link link-inverse" title="A cup of Coffee" data-toggle="popover" data-content="Just have a rest." data-placement="top">
+							<i class="icon-coffee"></i>
+							<span class="link-title">Have a rest</span>
+						</a>
+					</div>
+				</li>
+			</ul>
+
+			<div class="row-fluid">
+				<div class="span3">
+					<ul class="box">
+						<li class="nice"><i class="icon-arrow-up"></i> <span class="pull-right">2346 Visitors</span></li>
+						<li><i class="icon-arrow-up"></i> <span class="pull-right">80 Orders</span></li>
+						<li><i class="icon-arrow-up"></i> <span class="pull-right">56 Registers</span></li>
+						<li class="bad"><i class="icon-arrow-down"></i> <span class="pull-right">27 Rejected</span></li>
+					</ul>
+				</div>
+				<div class="merge-box span3 nice">
+					<span class="text">
+						Orders <sup>24h</sup>
+					</span>
+					<span class="number">7005</span>
+					<i class="icon-arrow-up"></i>
+					<br>
+					<span class="dau_line">
+						2800,2000,2000,3000,2800,2800,3600,2200,3000,2800,3000,2600,3200,3600,3000,2000,3200,3400,3600,2400,3000,3000,3400,3800
+					</span>
+					<hr>
+					<span class="number">+3005</span>
+					<span class="nice">+6%</span>
+
+					<div class="pull-right dropdown">
+						<a href="#" class="link dropdown-toggle" title="actions" role="button" data-toggle="dropdown" data-target="#"><i class="icon-plus"></i></a>
+						<ul class="pull-right dropdown-menu">
+							<li><a href="javascript:void(0)"><i class="icon-share-alt"></i> Full Reports </a></li>
+							<li><a href="javascript:void(0)"><i class="icon-download"></i>  Export Excel </a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="merge-box span3">
+					<span class="text">
+						Sales
+						<sup>24h</sup>
+					</span>
+					<span class="number">6808</span>
+					<i class="icon-arrow-up"></i>
+					<br>
+					<span class="dnu_line">
+						2400,3800,3600,3400,3000,3600,2400,2200,2800,3000,3400,2200,3200,2400,3800,2200,3600,3000,3000,3200,2400,2000,2000,2200
+					</span>
+					<hr>
+					<span class="number">+3005</span>
+					<span class="good">+3%</span>
+
+					<div class="pull-right dropdown">
+						<a href="#" class="link dropdown-toggle" title="actions" role="button" data-toggle="dropdown" data-target="#"><i class="icon-plus"></i></a>
+						<ul class="pull-right dropdown-menu">
+							<li><a href="javascript:void(0)"><i class="icon-share-alt"></i> Full Reports </a></li>
+							<li><a href="javascript:void(0)"><i class="icon-download"></i>  Export Excel </a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="merge-box span3 bad">
+					<span class="text">
+						Visitor
+						<sup>24h</sup>
+					</span>
+					<span class="number">3606</span>
+					<i class="icon-arrow-down img-rounded"></i>
+					<br>
+					<span class="updating-chart">
+						500,300,900,600,500,900,700,300,500,200,500,300,900,600,500,900,700,300,500,200
+					</span>
+					<hr>
+					<span class="number">-1005</span>
+					<span class="bad">-5%</span>
+					
+					<div class="pull-right dropdown">
+						<a href="#" class="link dropdown-toggle" title="actions" role="button" data-toggle="dropdown" data-target="#"><i class="icon-plus"></i></a>
+						<ul class="pull-right dropdown-menu">
+							<li><a href="javascript:void(0)"><i class="icon-share-alt"></i> Full Reports </a></li>
+							<li><a href="javascript:void(0)"><i class="icon-download"></i>  Export Excel </a></li>
+						</ul>
+					</div>
+				</div>
+				<!--merge-box end-->
+			</div>
+
+			<div class="row-fluid">
+				<div class="span6">
+					<ul class="box">
+						<li>
+							<div class="row-fluid">
+								<div class="span6">
+									<div class="widget">
+										<div class="widget-content">
+											<div class="title">Invoices</div>
+											<div id="sl_invoices" style="text-align:center"></div>
+											<div class="number">$18,223</div>
+										</div>
+									</div>
+								</div>
+								<div class="span6">
+									<div><strong>1,242</strong> delivered</div>
+									<div><strong>1,052</strong> in process</div>
+									<div><strong>2,434</strong> returned</div>
+									<div class="sub"></div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="row-fluid">
+								<div class="span6">
+									<div class="widget">
+										<div class="widget-content">
+											<div class="title">Users</div>
+											<div id="sl_users" style="text-align: center"></div>
+											<div class="number">3,235</div>
+										</div>
+									</div>
+								</div>
+								<div class="span6">
+									<div><strong>2,240</strong> active</div>
+									<div><strong>2,732</strong> passive</div>
+									<div><strong>1,309</strong> removed</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="row-fluid">
+								<div class="span6">
+									<div class="widget">
+										<div class="widget-content">
+											<div class="title">Clicks</div>
+											<div id="sl_clicks" style="text-align: center"></div>
+											<div class="number">1,342</div>
+											<div class="flag"><img src="img/icons/down_alt.png" alt=""></div>
+										</div>
+									</div>
+								</div>
+								<div class="span6">
+									<div class="widget">
+										<div class="widget-content">
+											<div class="title">Comments</div>
+											<div id="sl_comments" style="text-align: center"></div>
+											<div class="number">3,128</div>
+											<div class="flag"><img src="img/icons/up_alt.png" alt=""></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+				<div class="span6">
+					<ul class="box">
+						<li>
+							<div>
+								<img src="img/icons/applications.png" alt="">
+								<span class="green-text">System update #432</span>
+								<span class="sub pull-right">13/04/2013 08:00</span>
+							</div>
+							<div>Lorem ipsum Ut in minim dolore et ut ullamco id dolore esse dolor sit deserunt do in reprehenderit anim non.</div>
+							<div class="foot">Posted by <a href="javascript:void(0)">@lisa Joe</a></div>
+						</li>
+						<li>
+							<div>
+								<img src="img/icons/lock.png" alt="">
+								<span class="red-text">Secrity Warning #431</span>
+								<span class="sub pull-right">13/04/2013 08:00</span>
+							</div>
+							<div>Lorem ipsum Ut in minim dolore et ut ullamco id dolore esse dolor sit deserunt do in reprehenderit anim non.</div>
+							<div class="foot">Posted by <a href="javascript:void(0)">@lisa Joe</a></div>
+						</li>
+						<li>
+							<div>
+								<img src="img/icons/refresh.png" alt="">
+								<span class="gold-text">Database Backup completed #430</span>
+								<span class="sub pull-right">13/04/2013 08:00</span>
+							</div>
+							<div>Lorem ipsum Ut in minim dolore et ut ullamco id dolore esse dolor sit deserunt do in reprehenderit anim non.</div>
+							<div class="foot">Posted by <a href="javascript:void(0)">@lisa Joe</a></div>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="row-fluid">
+				<div class="widget">
+					<div class="widget-header">
+						<i class="icon-spinner icon-spin"></i>
+						<h3>Products (Widget + Box)</h3>
+						<a data-widget-action="thumb"></a>
+						<a data-widget-action="hide"></a>
+						<a data-widget-action="close"></a>
+					</div>
+					<div class="widget-content">
+						<div class="widget-toolbar">
+			                <a href="javascript:void(0)" class="btn btn-info">Prev</a>
+			                <span class="divider"></span>
+			                <a href="javascript:void(0)" class="btn">1</a>
+			                <a href="javascript:void(0)" class="btn">2</a>
+			                <a href="javascript:void(0)" class="btn">3</a>
+			                <a href="javascript:void(0)" class="btn">...</a>
+			                <a href="javascript:void(0)" class="btn">6</a>
+			                
+			                <span class="divider"></span>
+			                
+			                <a href="javascript:void(0)" class="btn btn-info">Next</a>
+		                  	
+		                  	<div class="btn-group pull-right">
+		                  		<a class="btn dropdown-toggle btn-warning" data-toggle="dropdown" href="#">
+							    	More <i class="icon-angle-down"></i>
+							    </a>
+							    <ul class="dropdown-menu">
+									<li><a href="javascript:void(0)"><i class="icon-share-alt"></i> Export</a></li>
+									<li><a href="javascript:void(0)"><i class="icon-refresh"></i> Backup</a></li>
+							    </ul>
+		                  	</div>
+			            </div>
+
+						<ul class="box h350" id="products_list">
+							<li>
+								<div class="row-fluid">
+									<div class="span2">
+										<img class="img-rounded" src="img/pictures/img%20(1).jpg" alt="">
+									</div>
+									<div class="span8">
+										<div>
+											<img src="img/active.png" alt="">
+											Product #27283
+										</div>
+										<div class="sub">
+											Lorem ipsum Occaecat occaecat id Ut nulla in officia anim aliqua incididunt elit dolor aliqua sed dolor non eu cupidatat dolore Duis culpa Duis dolore laboris dolore laboris dolor eu.
+										</div>
+										<div>
+											Category: <a href="javascript:void(0)">Female/Fashion</a> |
+											<span>20/04/2013 12:28</span>
+										</div>
+										<div class="foot">Published by <a href="javascript:void(0)">@Lisa Joe</a></div>
+										<div>
+											<a href="javascript:void(0)" class="btn btn-success" data-toggle="collapse" data-target="#p1">Clicke Me</a>
+											<a href="javascript:void(0)" class="btn">Edit</a>
+											<a href="javascript:void(0)" class="btn">Edit Category</a>
+											<a href="javascript:void(0)" class="btn btn-danger">Delete</a>
+										</div>
+										<div id="p1" class="collapse"> 
+											<form>
+												<fieldset>
+													<legend></legend>
+													<label class="control-label" for="inputName">Product Name</label>
+													<input type="text" id="inputName" placeholder="Product #27283">
+														
+													<label class="control-label">Sale Price</label>
+													<div class="input-prepend input-append">
+												    	<span class="add-on">$</span>
+												    	<input class="span8" id="appendedPrependedInput" type="text" placeholder="19.99">
+												    </div>
+							                    	
+							                    	<label class="control-label">Online?</label>
+							                    	<div class="controls">
+							                    		<div class="switch switch-small"><input type="checkbox" checked="checked"></div>
+							                    	</div>
+													
+													<button class="btn btn-info" type="submit">Save Changes</button>
+													<button class="btn btn-danger" type="reset">Reset</button>
+												</fieldset>
+											</form>	
+										</div>
+									</div>
+									<div class="span2">
+										<div class="widget">
+											<div class="widget-content">
+												<div>Sales: <span class="pull-right">322</span></div>
+												<div>Price: <span class="pull-right">$19.99</span></div>
+												<div>Clicks: <span class="pull-right green-text">343</span></div>
+												<div>Comments: <span class="pull-right red-text">27</span></div>
+												<div class="sl_product" style="text-align:center"></div>
+											</div>
+										</div>
+									</div>
+								</div>	
+							</li>
+							<li>
+								<div class="row-fluid">
+									<div class="span2">
+										<img class="img-rounded" src="img/pictures/img%20(2).jpg" alt="">
+									</div>
+									<div class="span8">
+										<div>
+											<img src="img/suspended.png" alt="">
+											Product #27283
+										</div>
+										<div class="sub">
+											Lorem ipsum Occaecat occaecat id Ut nulla in officia anim aliqua incididunt elit dolor aliqua sed dolor non eu cupidatat dolore Duis culpa Duis dolore laboris dolore laboris dolor eu.
+										</div>
+										<div>
+											Category: <a href="javascript:void(0)">Female/Fashion</a> |
+											<span>20/04/2013 12:28</span>
+										</div>
+										<div class="foot">Published by <a href="javascript:void(0)">@Lisa Joe</a></div>
+										<div>
+											<a href="javascript:void(0)" class="btn" data-toggle="collapse" data-target="#p2"><i class="icon-eye-open"></i></a>
+											<a href="javascript:void(0)" class="btn"><i class="icon-edit"></i></a>
+											<a href="javascript:void(0)" class="btn">Edit Category</a>
+											<a href="javascript:void(0)" class="btn btn-danger">Delete</a>
+										</div>
+										<div id="p2" class="collapse"> 
+											<h3>Details</h3>
+											<p>
+												Lorem ipsum Anim sunt veniam nisi velit veniam laborum sit quis exercitation incididunt tempor ex.
+											</p>
+										</div>
+									</div>
+									<div class="span2">
+										<div class="widget">
+											<div class="widget-content">
+												<div>Sales: <span class="pull-right">322</span></div>
+												<div>Price: <span class="pull-right">$19.99</span></div>
+												<div>Clicks: <span class="pull-right green-text">343</span></div>
+												<div>Comments: <span class="pull-right red-text">27</span></div>
+												<div class="sl_product" style="text-align:center"></div>
+											</div>
+										</div>
+									</div>
+								</div>	
+							</li>
+							<li>
+								<div class="row-fluid">
+									<div class="span2">
+										<img class="img-rounded" src="img/pictures/img%20(3).jpg" alt="">
+									</div>
+									<div class="span8">
+										<div>
+											<img src="img/suspended.png" alt="">
+											Product #27283
+										</div>
+										<div class="sub">
+											Lorem ipsum Occaecat occaecat id Ut nulla in officia anim aliqua incididunt elit dolor aliqua sed dolor non eu cupidatat dolore Duis culpa Duis dolore laboris dolore laboris dolor eu.
+										</div>
+										<div>
+											Category: <a href="javascript:void(0)">Female/Fashion</a> |
+											<span>20/04/2013 12:28</span>
+										</div>
+										<div class="foot">Published by <a href="javascript:void(0)">@Lisa Joe</a></div>
+										<div>
+											<a href="javascript:void(0)" class="btn" data-toggle="collapse" data-target="#p3"><i class="icon-eye-open"></i></a>
+											<a href="javascript:void(0)" class="btn">Edit</a>
+											<a href="javascript:void(0)" class="btn">Edit Category</a>
+											<a href="javascript:void(0)" class="btn btn-danger"><i class="icon-trash"></i></a>
+										</div>
+										<div id="p3" class="collapse"> 
+											<h3>Details</h3>
+											<p>
+												Lorem ipsum Anim sunt veniam nisi velit veniam laborum sit quis exercitation incididunt tempor ex.
+											</p>
+										</div>
+									</div>
+									<div class="span2">
+										<div class="widget">
+											<div class="widget-content">
+												<div>Sales: <span class="pull-right">322</span></div>
+												<div>Price: <span class="pull-right">$19.99</span></div>
+												<div>Clicks: <span class="pull-right green-text">343</span></div>
+												<div>Comments: <span class="pull-right red-text">27</span></div>
+												<div class="sl_product" style="text-align:center"></div>
+											</div>
+										</div>
+									</div>
+								</div>	
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="leaderboard">
+				<div class="row-fluid">
+					<h4>Leaderboard Table</h4>
+					<div class="alert alert-info">
+	                	<button data-dismiss="alert" class="close" type="button">×</button>
+	                	<img src="img/icons/info.png" alt=""> 
+	                	Leaderboard lets you compare rankings across different categories.
+	              	</div>
+				</div>
+
+				<div class="row-fluid">
+					<ul class="span3">
+						<li class="title">Product A Sales</li>
+						<li class="rank"></li>
+						<li data-rel="US" data-value="845"><span class="name">United States</span></li>
+						<li data-rel="CA" data-value="454"><span class="name">Canada</span></li>
+						<li data-rel="CN" data-value="345"><span class="name">China</span></li>
+						<li data-rel="AU" data-value="676"><span class="name">Australia</span></li>
+						<li data-rel="BR" data-value="834"><span class="name">Brazil</span></li>
+						<li data-rel="GL" data-value="582"><span class="name">Greeland</span></li>
+						<li data-rel="RU" data-value="224"><span class="name">Russian</span></li>
+					</ul>
+					<ul class="span3">
+						<li class="title">Product B Sales</li>
+						<li class="rank"></li>
+						<li data-rel="US" data-value="485"><span class="name">United States</span></li>
+						<li data-rel="CA" data-value="823"><span class="name">Canada</span></li>
+						<li data-rel="CN" data-value="748"><span class="name">China</span></li>
+						<li data-rel="AU" data-value="442"><span class="name">Australia</span></li>
+						<li data-rel="BR" data-value="734"><span class="name">Brazil</span></li>
+						<li data-rel="GL" data-value="254"><span class="name">Greeland</span></li>
+						<li data-rel="RU" data-value="533"><span class="name">Russian</span></li>
+					</ul>
+					<ul class="span3">
+						<li class="title">Product C Sales</li>
+						<li class="rank"></li>
+						<li data-rel="US" data-value="874"><span class="name">United States</span></li>
+						<li data-rel="CA" data-value="834"><span class="name">Canada</span></li>
+						<li data-rel="CN" data-value="745"><span class="name">China</span></li>
+						<li data-rel="AU" data-value="634"><span class="name">Australia</span></li>
+						<li data-rel="BR" data-value="732"><span class="name">Brazil</span></li>
+						<li data-rel="GL" data-value="563"><span class="name">Greeland</span></li>
+						<li data-rel="RU" data-value="322"><span class="name">Russian</span></li>
+					</ul>
+					<ul class="span3">
+						<li class="title">Product D Sales</li>
+						<li class="rank"></li>
+						<li data-rel="US" data-value="343"><span class="name">United States</span></li>
+						<li data-rel="CA" data-value="563"><span class="name">Canada</span></li>
+						<li data-rel="CN" data-value="673"><span class="name">China</span></li>
+						<li data-rel="AU" data-value="532"><span class="name">Australia</span></li>
+						<li data-rel="BR" data-value="432"><span class="name">Brazil</span></li>
+						<li data-rel="GL" data-value="546"><span class="name">Greeland</span></li>
+						<li data-rel="RU" data-value="575"><span class="name">Russian</span></li>
+					</ul>
+				</div>
+				
+				<div class="row-fluid">
+					<div class="total"></div>
+				</div>
+
+				<div id="sales_vmap" style="width: 100%; height: 350px;"></div>
+			</div>
+
+			<div class="row-fluid">
+				<div class="span4">
+					<ul class="box">
+						<li class="title">
+							<i class="icon-bullhorn"></i>
+							Recent Overview
+						</li>
+						<li>
+							<span class="number">263</span> 
+							<span>New Registers</span>
+							<span class="sub">13/04 08:00</span>
+							<a href="javascript:void(0)" class="btn btn-circle pull-right">View</a>
+						</li>
+						<li>
+							<span class="number">341</span> 
+							<span>New Visitors</span>
+							<span class="sub">13/04 07:00</span>
+							<a href="javascript:void(0)" class="btn btn-circle btn-info pull-right">View</a>
+						</li>
+						<li>
+							<span class="number">242</span> 
+							<span>New Sales</span>
+							<span class="sub">13/04 06:00</span>
+							<a href="javascript:void(0)" class="btn btn-circle btn-warning pull-right">View</a>
+						</li>
+						<li>
+							<span class="number">522</span> 
+							<span>New Orders</span>
+							<span class="sub">13/04 05:00</span>
+							<a href="javascript:void(0)" class="btn btn-circle btn-danger pull-right">View</a>
+						</li>
+						<li>
+							<span class="number">224</span> 
+							<span>New Requests</span>
+							<span class="sub">13/04 04:00</span>
+							<a href="javascript:void(0)" class="btn btn-circle btn-success pull-right">View</a>
+						</li>
+						<li>
+							<span>Note</span>
+							<span class="foot">Lorem ipsum Reprea ea nostrud.</span>
+						</li>
+					</ul>
+				</div>
+				<div class="span8">
+					<div class="widget">
+						<div class="widget-content">
+							<div class="row-fluid">
+								<div class="span6">
+									<div class="row-fluid">
+										<div id="gauge_orders" class="gauge span6">Orders Example</div>
+										<div id="gauge_task" class="gauge span6">Tasks Example</div>
+									</div>
+									
+									<div class="row-fluid">
+										<div id="gauge_visited" class="gauge span6">Visitors Example</div>
+										<div id="gauge_request" class="gauge span6">Requests Example</div>
+									</div>
+								</div>
+								<div class="span6">
+									<div class="centered">
+										<div class="orange-text">Donut Charts Type</div>
+										<div>Sales Percent (Mobile Devices)</div>
+										<div id="mobile_device" class="morris_pie centered"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row-fluid">
+				<div class="span6">
+					<div class="widget widget-table">
+						<div class="widget-content">
+							<table class="table todo">
+								<tr>
+									<td>
+										<form class="form-search">
+											<div class="input-append">
+												<input type="text" class="search-query input-large" placeholder="Hey, New task">
+												<button class="btn" type="submit">
+													<i class="icon-plus"></i>
+												</button>
+											</div>
+										</form>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class="check"></div>
+										<span class="time">Mar 28</span>
+										<span class="content">Lorem ipsum nisi do ad irure.</span>
+										<a href="javascript:void(0)" class="level"><i class="icon-star"></i></a>
+									</td>
+								</tr>
+
+								<tr>
+									<td>
+										<div class="check checked"></div>
+										<span class="time done">Mar 28</span>
+										<span class="content done">Lorem ipsum nisi do ad irure.</span>
+										<a href="javascript:void(0)" class="level"><i class="icon-star-empty"></i></a>
+									</td>
+								</tr>
+
+								<tr>
+									<td>
+										<div class="check"></div>
+										<span class="time">Mar 28</span>
+										<span class="content">Lorem ipsum nisi do ad irure.</span>
+										<a href="javascript:void(0)" class="level"><i class="icon-star-empty"></i></a>
+									</td>
+								</tr>
+
+								<tr>
+									<td>
+										<div class="check checked"></div>
+										<span class="time done">Mar 28</span>
+										<span class="content done">Lorem ipsum nisi do ad irure.</span>
+										<a href="javascript:void(0)" class="level"><i class="icon-star-empty"></i></a>
+									</td>
+								</tr>
+								
+								<tr>
+									<td>
+										<div class="check"></div>
+										<span class="time">Mar 28</span>
+										<span class="content">Lorem ipsum nisi do ad irure.</span>
+										<a href="javascript:void(0)" class="level"><i class="icon-star-empty"></i></a>
+									</td>
+								</tr>
+
+								<tr>
+									<td>
+										<div class="check checked"></div>
+										<span class="time done">Mar 28</span>
+										<span class="content done">Lorem ipsum nisi do ad irure.</span>
+										<a href="javascript:void(0)" class="level"><i class="icon-star"></i></a>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class="left"><span class="label label-info">10</span> items left.</div>
+										<div class="completed"><span class="label label-warning">60</span> completed items.</div>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+				<div class="span6">
+					<div class="widget">
+						<div class="widget-header">
+							<i class="icon-th-list"></i>
+							<h3>Running Task</h3>
+							<a href="javascript:void(0)" data-widget-action="help" data-widget-box="help"></a>
+							<div id="help" class="modal hide fade" tabindex="-1" role="dialog"> <div class="modal-header"> <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button> <h3 id="myModalLabe3">Help Demo Box <i class="icon-github"></i> <i class="icon-facebook"></i> </h3> </div> <div class="modal-body"> <p><img src="img/icons/help.png" alt=""> Lorem ipsum Ea in tempor ex fugiat qui nostrud consequat esse proident id voluptate do aliqua nostrud mollit ullamco fugiat exercitation quis sint id veniam do adipisicing eiusmod laboris non qui nostrud deserunt Duis laborum adipisicing reprehenderit do ea culpa elit.</p> </div> <div class="modal-footer"> <button class="btn" data-dismiss="modal" aria-hidden="true">Okay</button></div> </div>
+							<a href="javascript:void(0)" data-widget-action="config" data-widget-box="config"></a>
+							<div id="config" class="modal hide fade" tabindex="-1" role="dialog"> <div class="modal-header"> <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button> <h3 id="myModalLabel2">Config Demo Box <i class="icon-github"></i> <i class="icon-facebook"></i> </h3> </div> <div class="modal-body"> <p><img src="img/icons/settings.png" alt=""> Lorem ipsum Magna Ut deserunt consequat dolor ea incididunt ut eu nostrud ex aliquip aliquip eu do sint exercitation quis reprehenderit.</p> </div> <div class="modal-footer"> <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button> <button class="btn btn-primary">Save changes</button> </div> </div>
+							<a data-widget-action="thumb"></a>
+							<a data-widget-action="full"></a>
+							<a data-widget-action="hide"></a>
+							<a data-widget-action="close"></a>
+						</div>
+						<div class="widget-content">
+							<i class="icon-bell"></i> Task (dynamic)
+							<span class="pull-right">20%</span>
+							<div class="progress progress-info" id="dynamic-progresses">
+								<div style="width: 20%" class="bar"></div>
+							</div>
+
+							<i class="icon-beaker"></i> Task (default bg)
+							<span class="pull-right">80%</span>
+							<div class="progress progress-info progress-striped">
+								<div style="width: 80%" class="bar"></div>
+							</div>
+
+							<i class="icon-filter"></i> Task (pink linear bg)
+							<span class="pull-right">40%</span>
+							<div class="progress progress-success pink-bg-linear">
+								<div style="width: 40%" class="bar"></div>
+							</div>
+
+							<i class="icon-map-marker"></i> Task (green bg)
+							<span class="pull-right">60%</span>
+							<div class="progress progress-warning green-bg">
+								<div style="width: 60%" class="bar"></div>
+							</div>
+
+							<i class="icon-beer"></i> Task (orange bg)
+							<span class="pull-right">90%</span>
+							<div class="progress progress-success progress-striped orange-bg">
+								<div style="width: 90%" class="bar"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row-fluid">
+				<div class="span3">
+					<ul class="box h450 scroll" id="chat-box">
+						<li class="title">
+							<div class="input-append">
+								<input type="text" placeholder="Your Message..." class="input-medium">
+								<button type="submit" class="btn">
+									<i class="icon-comments"></i>
+								</button>
+							</div>
+						</li>
+						<li>
+							<img class="img-rounded" src="img/avatar2.jpg" alt="">
+							<div class="righted small-text">Lorem ipsum Mollit dolore elit commodo dolore.</div>
+							<div class="pull-right"><span>lisa Joe</span> <span class="foot">10 mintues ago</span></div>
+						</li>
+						<li>
+							<img class="img-rounded" src="img/avatar4.jpg" alt="">
+							<div class="small-text">Lorem ipsum Mollit dolore elit aliqua dolore.</div>
+							<div class="pull-right"><span>lisa Joe</span> <span class="foot">18 Feb 2013 08:22</span></div>
+						</li>
+						<li>
+							<img class="img-rounded" src="img/avatar7.jpg" alt="">
+							<div class="righted small-text">Lorem ipsum Mollit dolore elit commodo dolore.</div>
+							<div class="pull-right"><span class="blue-text">lisa Joe</span> <span class="foot">18 Feb 2013 08:21</span></div>
+						</li>
+						<li>
+							<img class="img-rounded" src="img/avatar2.jpg" alt="">
+							<div class="orange-text small-text">Lorem ipsum Mollit dolore elit commodo dolore.</div>
+							<div class="pull-right"><span class="blue-text">lisa Joe</span> <span class="foot">18 Feb 2013 08:20</span></div>
+						</li>
+						<li>
+							<img class="img-rounded" src="img/avatar8.jpg" alt="">
+							<div class="righted green-text small-text">Lorem ipsum Mollit dolore elit commodo dolore.</div>
+							<div class="pull-right"><span class="blue-text">lisa Joe</span> <span class="foot">18 Feb 2013 08:19</span></div>
+						</li>
+					</ul>
+				</div>
+				<div class="span9">
+					<div class="widget">
+						<div class="widget-header">
+							<i class="icon-comments-alt"></i>
+							<h3>Chat Panel</h3>
+							<a data-widget-action="thumb"></a>
+							<a data-widget-action="hide"></a>
+							<a data-widget-action="close"></a>
+						</div>
+						<!-- /widget-header -->
+						<div class="widget-content">
+							<div class="alert alert-warning">
+								<button data-dismiss="alert" class="close" type="button">×</button>
+								<img src="img/icons/info.png" alt=""> You can place this widget to left sidebar if you don't want to chat currently.
+							</div>
+
+							<div class="row-fluid">
+								<div class="span2">
+									<ul class="box">
+										<li>
+											<img src="img/active.png" alt="">
+											Lisa Joe
+											<div class="sub">Ruby Developer</div>
+										</li>
+										<li>
+											<img src="img/suspended.png" alt="">
+											Lisa Kity
+											<div class="sub">PHP Developer</div>
+										</li>
+										<li>
+											<img src="img/active.png" alt="">
+											Lisa Joe
+											<div class="sub">Ruby Developer</div>
+										</li>
+										<li>
+											<img src="img/suspended.png" alt="">
+											Lisa Kity
+											<div class="sub">PHP Developer</div>
+										</li>
+										<li>
+											<img src="img/active.png" alt="">
+											Lisa Joe
+											<div class="sub">Ruby Developer</div>
+										</li>
+									</ul>
+								</div>
+
+								<div class="span10">
+									<div class="msg-items-container">
+										<ul class="nav nav-tabs">
+										  <li class="active online">
+										  	<a href="#lisa-joe" data-toggle="tab" title="online"><img src="img/active.png" alt="">Lisa Joe</a>
+										  </li>
+										  <li class="offline">
+										  	<a href="#lisa-kity" data-toggle="tab" title="offline"><img src="img/suspended.png" alt="">Lisa Kity</a>
+										  </li>
+										</ul>
+
+										<div class="tab-content">
+											<div class="tab-pane active" id="lisa-joe">
+												<div class="msg-item received">
+													<img class="avatar" src="img/avatar6.jpg" alt="" />
+													<span class="username">@Lisa Joe</span>
+													<span class="muted">Jul 25, 2012 11:09</span>
+
+													<p>
+														Lorem ipsum sunt veniam Duis ut eu.Lorem ipsum aliqua dolor nisi aute.
+													</p>
+												</div>
+
+												<div class="msg-item sent">
+													<span class="muted">Jul 25, 2012 11:09</span>
+													<img class="avatar" src="img/avatar9.jpg" alt="" />
+													<p>
+														Lorem ipsum sunt veniam Duis ut eu.Lorem ipsum aliqua dolor nisi aute.
+													</p>
+												</div>
+											</div>
+											
+											<div class="tab-pane" id="lisa-kity">
+												<div class="msg-item received">
+													<img class="avatar" src="img/avatar6.jpg" alt="" />
+													<span class="username">@Lisa Kity</span>
+													<span class="muted">Jul 25, 2012 11:09</span>
+
+													<p>
+														Lorem ipsum sunt veniam Duis ut eu.Lorem ipsum aliqua dolor nisi aute.
+													</p>
+												</div>
+
+												<div class="msg-item sent">
+													<span class="muted">Jul 25, 2012 11:09</span>
+													<img class="avatar" src="img/avatar9.jpg" alt="" />
+													<p>
+														Lorem ipsum sunt veniam Duis ut eu.Lorem ipsum aliqua dolor nisi aute.
+													</p>
+												</div>
+
+												<div class="msg-item offline">
+													<img src="img/icons/exclamation.png" alt=""> Lisa kity is disconnect...
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<form class="form-search ">
+										<input type="text" class="input-xlarge search-query" placeholder="Lorem ipsum pariatur tempor exercitation ut officia. ">
+										<a class="btn btn-success">
+											<i class="icon-edit"></i>
+											Send
+										</a>
+										<a href="javascript:void(0)" class="btn">
+											<i class="icon-save"></i>
+											Save history
+										</a>
+									</form>
+								</div>
+							</div>
+						</div>
+						<!-- /widget-content -->
+					</div>
+				</div>
+			</div>
+			<!--/chats-->
+
+			<div class="row-fluid">
+				<div class="span12">
+					<div class="widget">
+						<div class="widget-header">
+							<i class="icon-envelope"></i>
+							<h3>
+								Mailbox 
+								<span class="badge badge-important">6</span>
+								unread messages!
+							</h3>
+							<a href="javascript:void(0)"> <i class="icon-share"></i> </a>
+							<a href="javascript:void(0)"> <i class="icon-edit"></i> </a>
+							<a href="javascript:void(0)"> <i class="icon-trash"></i> </a>
+							
+							<a data-widget-action="thumb"></a>
+							<a data-widget-action="hide"></a>
+							<a data-widget-action="close"></a>
+						</div>
+						<!-- /widget-header -->
+
+						<div class="widget-content">
+							<div class="alert alert-warning">
+								<button data-dismiss="alert" class="close" type="button">×</button>
+								<img src="img/icons/heart.png" alt=""> This is widget content box, you can put everthing here.
+							</div>
+							<form class="form-search">
+								<div class="input-append">
+									<input type="text" class="input-large search-query" placeholder="from: Lisa Joe">
+									<button class="btn" type="submit">Search</button>
+								</div>
+							</form>
+
+							<table class="table table-striped responsive">
+								<tr>
+									<th>Sent By</th>
+									<th>Subject</th>
+									<th>Label</th>
+									<th>Date</th>
+									<th>
+										<input type="checkbox"></th>
+								</tr>
+
+								<tr>
+									<td>
+										<i class="icon-user"></i>
+										Lisa Joe
+										<span class="badge badge-warning">5</span>
+									</td>
+									<td>Lorem ipsum anim esse in ex est anim officia.</td>
+									<td>
+										<span class="label label-warning">Urgent</span>
+									</td>
+									<td>30 montues ago!</td>
+									<td>
+										<input type="checkbox"></td>
+								</tr>
+
+								<tr>
+									<td>
+										<i class="icon-user"></i>
+										Lisa Joe
+									</td>
+									<td><i class="icon-flag"></i> Lorem ipsum anim esse in ex est anim officia.</td>
+									<td>
+										<span class="label label-info">fixed</span>
+									</td>
+									<td>2013-01-12 08:23</td>
+									<td>
+										<input type="checkbox"></td>
+								</tr>
+
+								<tr>
+									<td>
+										<i class="icon-user"></i>
+										Lisa Joe
+										<span class="badge badge-error">5</span>
+									</td>
+									<td><i class="icon-flag"></i> Lorem ipsum anim esse in ex est anim officia.</td>
+									<td>
+										<span class="label label-warning">Urgent</span>
+									</td>
+									<td>30 montues ago!</td>
+									<td>
+										<input type="checkbox"></td>
+								</tr>
+
+								<tr>
+									<td>
+										<i class="icon-user"></i>
+										Lisa Joe
+									</td>
+									<td>Lorem ipsum anim esse in ex est anim officia.</td>
+									<td>
+										<span class="label label-info">fixed</span>
+									</td>
+									<td>2013-01-12 08:23</td>
+									<td>
+										<input type="checkbox"></td>
+								</tr>
+
+								<tr>
+									<td>
+										<i class="icon-user"></i>
+										Lisa Joe
+										<span class="badge badge-info">5</span>
+									</td>
+									<td>Lorem ipsum anim esse in ex est anim officia.</td>
+									<td>
+										<span class="label label-warning">Urgent</span>
+									</td>
+									<td>30 montues ago!</td>
+									<td>
+										<input type="checkbox"></td>
+								</tr>
+
+								<tr>
+									<td>
+										<i class="icon-user"></i>
+										Lisa Joe
+									</td>
+									<td>Lorem ipsum anim esse in ex est anim officia.</td>
+									<td>
+										<span class="label label-info">fixed</span>
+									</td>
+									<td>2013-01-12 08:23</td>
+									<td>
+										<input type="checkbox"></td>
+								</tr>
+
+								<tr>
+									<td colspan="5">
+										<div class="pagination">
+											<ul>
+												<li>
+													<a href="#">
+														<i class="icon-arrow-left"></i>
+													</a>
+												</li>
+												<li>
+													<a href="#">1</a>
+												</li>
+												<li>
+													<a href="#">2</a>
+												</li>
+												<li>
+													<a href="#">3</a>
+												</li>
+												<li>
+													<a href="#">4</a>
+												</li>
+												<li>
+													<a href="#">5</a>
+												</li>
+												<li>
+													<a href="#">6</a>
+												</li>
+												<li>
+													<a href="#">7</a>
+												</li>
+												<li>
+													<a href="#">8</a>
+												</li>
+												<li>
+													<a href="#">
+														<i class="icon-arrow-right"></i>
+													</a>
+												</li>
+											</ul>
+										</div>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--/mailbox-->
+
+			<div class="row-fluid">
+				<div class="widget">
+					<div class="widget-header">
+						<i class="icon-legal"></i>
+						<h3>Basic Toolbar</h3>
+						<a data-widget-action="thumb"></a>
+						<a data-widget-action="hide"></a>
+						<a data-widget-action="close"></a>
+					</div>
+
+					<div class="widget-content">
+						<div class="widget-toolbar">
+							<a href="javascript:void(0)" class="btn"><i class="icon-minus"></i></a>
+							<a href="javascript:void(0)" class="btn"><i class="icon-plus"></i></a>
+							<span class="divider"></span>
+							<a href="javascript:void(0)" class="btn"><i class="icon-home"></i></a>
+							<a href="javascript:void(0)" class="btn"><i class="icon-folder-close"></i></a>
+							<span class="divider"></span>
+							<a href="javascript:void(0)" class="btn"><i class="icon-edit"></i></a>
+							<a href="javascript:void(0)" class="btn"><i class="icon-save"></i></a>
+							<a href="javascript:void(0)" class="btn"><i class="icon-trash"></i></a>
+							<span class="divider"></span>
+							<a href="javascript:void(0)" class="btn pull-right">
+								<i class="icon-plus"></i>
+								<i class="icon-folder-open"></i>
+							</a>
+							<span class="divider"></span>
+							<div class="btn-group">
+							    <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+							    	Action <span class="caret"></span>
+							    </a>
+							    <ul class="dropdown-menu">
+							    	<li><a href="javascript:void(0)"><i class="icon-edit"></i> Edit</a></li>
+									<li><a href="javascript:void(0)"><i class="icon-save"></i> Save</a></li>
+									<li><a href="javascript:void(0)"><i class="icon-trash"></i> Trash</a></li>
+									<li class="divider"></li>
+									<li><a href="javascript:void(0)"><i class="icon-share-alt"></i> Export</a></li>
+									<li><a href="javascript:void(0)"><i class="icon-refresh"></i> Backup</a></li>
+							    </ul>
+						    </div>
+							<div class="btn-group">
+							    <button class="btn">Left</button>
+							    <button class="btn">Middle</button>
+							    <button class="btn">Right</button>
+						    </div>
+							<div class="input-append pull-right">
+						    	<input class="span6" id="appendedInputButton" type="text">
+						    	<button class="btn" type="button">Execute</button>
+						    </div>
+						</div>
+						<div>
+							Lorem ipsum Mollit ut enim est commodo et sed esse aliquip nostrud incididunt id laboris in Excepteur mollit amet irure Excepteur do in ut sed ad culpa voluptate Ut sint anim voluptate dolor deserunt laboris.
+							Lorem ipsum Mollit ut enim est commodo et sed esse aliquip nostrud incididunt id laboris in Excepteur mollit amet irure Excepteur do in ut sed ad culpa voluptate Ut sint anim voluptate dolor deserunt laboris.
+							Lorem ipsum Mollit ut enim est commodo et sed esse aliquip nostrud incididunt id laboris in Excepteur mollit amet irure Excepteur do in ut sed ad culpa voluptate Ut sint anim voluptate dolor deserunt laboris.
+							Lorem ipsum Mollit ut enim est commodo et sed esse aliquip nostrud incididunt id laboris in Excepteur mollit amet irure Excepteur do in ut sed ad culpa voluptate Ut sint anim voluptate dolor deserunt laboris.
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<div id="back-top">
+	<a href="javascript:void(0)"><i class="icon-angle-up"></i></a>
+</div>
+
+<div class="copyright">
+	<p>Copyright &copy; Your Company 2013. All rights reserved.</p>
+</div>
+
+<ol id="tour">
+	<li data-class="filter-box" data-text="Next Please">
+		<h5>Welcome to gappro!</h5>
+		<p>Follow me please, type 'widget' to filter menu.</p>
+	</li>
+
+	<li data-class="filter-box" data-text="Next Please">
+		<h5>Did you see?</h5>
+		<p>Focus input box, then press 'ESC' key please.</p>
+	</li>	
+
+	<li data-class="menu-controller" data-text="Next Please">
+		<h5>Hide menu items.</h5>
+		<p>Click now, you can working with workspace.</p>
+	</li>	
+
+	<li data-class="menu-controller" data-text="Next Please">
+		<h5>Redo it.</h5>
+		<p>Click again to show menu.</p>
+	</li>	
+
+	<li data-id="widget-menu" data-text="Next Please">
+		<h5>Move mouse to widget icon.</h5>
+		<p>Drag widget-icon to top bar, then drop it.</p>
+	</li>
+
+	<li data-id="messages-box" data-text="Finish Tour" data-options="tipLocation:right">
+		<h5>You have created a persistent fav-link.</h5>
+		<p>Jump to another page to test it, or drag again to remove it.</p>
+	</li>
+</ol>
+
+<script src="js/jquery-1.7.2.min.js"></script>
+<script src="js/modernizr.mq.js"></script>
+<script src="js-webshim/extras/modernizr-custom.js"></script>
+<script src="js-webshim/polyfiller.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-ui-1.10.2.min.js"></script>
+<script src="js/prettify/prettify.js"></script>
+<script src="js/format/html-format.js"></script>
+<script src="js/peity/jquery.peity.min.js"></script>
+<script src="js/easy_pie_chart/jquery.easy-pie-chart.js"></script>
+<script src="js/sparkline/jquery.sparkline.min.js"></script>
+<script src="js/morris/raphael.2.1.0.min.js"></script>
+<script src="js/justgage/justgage.1.0.1.min.js"></script>
+<script src="js/flot/jquery.flot.js"></script>
+<script src="js/morris/morris.min.js"></script>
+<script src="js/responsive_tables/responsive-tables.js"></script>
+<script src="js/mCustomScrollbar/jquery.mousewheel.min.js"></script>
+<script src="js/mCustomScrollbar/jquery.mCustomScrollbar.min.js"></script>
+<script src="js/bootstrap_switch/bootstrapSwitch.js"></script>
+<script src="js/bootstrap_growl/jquery.bootstrap-growl.min.js"></script>
+<script src="js/jqvmap/jquery.vmap.min.js"></script>
+<script src="js/jqvmap/maps/jquery.vmap.world.js"></script>
+<script src="js/tsort/jquery.tinysort.min.js"></script>
+<script src="js/joyride/jquery.joyride-2.0.3.js"></script>
+<script src="js/jstorage/json2.js"></script>
+<script src="js/jstorage/jstorage.min.js"></script>
+<script src="js/leaderboard/jquery.leaderboard-1.0.min.js"></script>
+<script src="js/gappro/config.js"></script>
+<script src="js/gappro/gappro.js"></script>
+<script src="js/application.js"></script>
+<script src="js/index.js"></script>
+<script src="js/fix/ios-orientationchange-fix.js"></script>
+</body>
+</html>

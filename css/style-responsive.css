@@ -1,0 +1,142 @@
+/*------------------------------------------------------------------
+
+[Responsive Stylesheet]
+
+    Project:        Gappro Responsive
+    Version:        1.0
+    Last change:    04/2013
+    Assigned to:    Bob Wang
+
+-------------------------------------------------------------------*/
+
+@media (max-width: 320px) {
+    #icon-menu > ul > li > a {
+        width: 100px !important;
+        font-size: 0.625em !important;
+    }
+
+    #icon-menu > ul > li > a + .sub-menus {
+        width: 240px;
+    }
+}
+
+@media (max-width: 360px) { 
+    .circle-link { 
+        width: 45px !important;
+        height: 45px !important;
+        line-height: 45px !important;
+        font-size: 0.8em !important;
+    }
+
+    a[data-action="full"], a[data-action="code"] {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    
+}
+
+@media (max-width: 600px) { 
+
+}
+
+@media (max-width: 640px) { 
+    #btn-tour-take,.navbar, #workspace, #breadcrumbs,
+    .circle-link .link-title,
+    a[data-action="thumb"] {
+        display: none !important;
+    }
+
+    #icon-menu > ul li { 
+        border-bottom: none;
+    }
+
+    #icon-menu ul {
+        margin-left: 0px !important;
+    }
+
+    #icon-menu ul li {
+        width: 120px;
+        float: left;
+        display: inline-block;
+        line-height: 20px;
+    }
+
+    .circle-link { 
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 1.25em;
+    }
+
+    #main {
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+
+    #sidebar {
+        margin-top: -20px;
+    }
+
+    body {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    #icon-menu > ul > li > a > span.label {
+        display: none;
+    }
+
+    #icon-menu .sub-menus {
+        margin-left: -3px !important;
+    }
+}
+
+@media (max-width: 800px) {
+    .navbar .brand,
+    #icon-menu > ul > li.circle {display: none; }
+
+    #icon-menu > ul {
+        margin-top: 2px;
+        margin-left: -4px;
+    }
+
+    #workspace {
+        margin-left: -4px;
+        margin-right: -4px;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 980px) {
+    #top-menu li a,
+    #top-menu > li > .btn-group > a {
+        width: 40px;
+    }
+
+    #top-menu > li > a > span,
+    #top-menu > li > .btn-group > a > span { 
+        display: none;
+    }
+
+    #top-menu > li > a > i,
+    #top-menu > li > .btn-group > a > i { 
+        vertical-align: middle;
+        line-height: 60px;
+    }
+}
+
+@media (max-width: 980px) {
+    /* menu font and icon size */
+    #icon-menu > ul > li > a, 
+    #icon-menu ul > li > .sub-menus > li > a {
+        font-size: 0.8em;
+    }
+
+    #icon-menu > ul > li > a > i { 
+        width: 14px;
+        height: 14px;
+    }
+}

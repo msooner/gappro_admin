@@ -1,0 +1,479 @@
+<!doctype html>
+<head>
+<meta charset="utf-8">
+<title>Gappro - Admin Theme Template for Backend Applications.</title>
+<link href='http://fonts.googleapis.com/css?family=Sintony' rel='stylesheet' type='text/css'>
+<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap-responsive.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet" media="screen">
+<link href="css/style-responsive.css" rel="stylesheet" media="screen">
+<link href="css/font_awesome/font-awesome.min.css" rel="stylesheet" media="screen">
+<link href="css/joyride/joyride-2.0.3.css" rel="stylesheet" media="screen">
+<meta name="description" content="admin theme template for any backend applications.">
+<meta name="author" content="boostbob.github.com">
+<meta name="viewport" content="width=device-width,initial-scale=1.0"></head>
+
+<body>
+<div class="navbar navbar-inverse">
+  <div class="navbar-inner">
+    <div class="container-fluid">
+      <div class="row-fluid">
+
+        <div class="span8">
+          <a href="index.html">
+            <img class="brand" src="img/logo.png" alt="">
+          </a>
+          
+          <form class="form-search">
+            <input type="text" placeholder="keywords" class="input-medium search-query">
+            <button type="submit" class="btn">Search</button>
+
+              <div class="btn-group">
+                <a class="btn dropdown-toggle btn-warning" data-toggle="dropdown" href="#">
+                  <span><i class="icon-bell"></i></span>
+                </a>
+                <ul class="dropdown-menu" id="messages-box">
+                  <li>
+                    <img src="img/avatar2.jpg" alt="">
+                    <span class="time">6 mintues ago</span><br>
+                    <span class="content">Lorem ipsum et consectetur officia veniam... </span>
+                  </li>
+                  <li>
+                    <img src="img/avatar4.jpg" alt="">
+                     <span class="time">12 mintues ago</span><br>
+                    <span class="content">Lorem ipsum et consectetur officia veniam... </span>
+                  </li>
+                  <li>
+                    <img src="img/avatar6.jpg" alt="">
+                  <span class="time">20 mintues ago</span><br>
+                    <span class="content">Lorem ipsum et consectetur officia veniam... </span>
+                  </li>
+                  <li>
+                    <img src="img/avatar8.jpg" alt="">
+                    <span class="time">25 mintues ago</span><br>
+                    <span class="content">Lorem ipsum et consectetur officia veniam... </span>
+                  </li>
+                </ul>
+            </div>
+          </form>
+        </div>
+
+        <div class="span4">
+          <ul id="top-menu">
+            <li>
+              <a href="javascript:void(0)" class="btn"> 
+                <i class="icon-edit"></i>
+                <span>Notes</span>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void(0)" class="btn">
+                <i class="icon-group"></i>
+                <span>Groups</span>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void(0)" class="btn">
+                <i class="icon-eye-open"></i>
+                <span>Website</span>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void(0)" class="btn">
+                <i class="icon-off"></i>
+                <span>Logout</span>
+              </a>
+            </li>
+          </ul>
+        </div>  
+
+      </div>
+
+      <div id="config-box">
+        <a href="javascript:void(0)" class="btn config-button"><i class="icon-cog"></i></a>
+        <div class="btn-group">
+                  <button class="btn"><i class="icon-refresh"></i> Menu Themes</button>
+                  <button data-toggle="dropdown" class="btn btn-inverse dropdown-toggle">
+                    <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu" id="menu_colors">
+                    <li><a href="#" data-color="pink">PINK</a></li>
+                    <li><a href="#" data-color="green">GREEN</a></li>
+                    <li><a href="#" data-color="grey">GREY</a></li>
+                    <li><a href="#" data-color="white">WHITE</a></li>
+                    <li><a href="#" data-color="orange">ORANGE</a></li>
+                    <li><a href="#" data-color="blue">BLUE</a></li>
+                    <li><a href="#" data-color="gold">GOLD</a></li>
+                    <li><a href="#" data-color="black">DEFAULT</a></li>
+                  </ul>
+              </div>
+              <h4>Backgournd:</h4>
+              <ul id="backgrounds">
+                <li><a href="javascript:void(0)"><img src="img/backgrounds/1.jpg" alt=""></a></li>
+                <li><a href="javascript:void(0)"><img src="img/backgrounds/2.jpg" alt=""></a></li>
+                <li><a href="javascript:void(0)"><img src="img/backgrounds/3.jpg" alt=""></a></li>
+                <li><a href="javascript:void(0)"><img src="img/backgrounds/4.jpg" alt=""></a></li>
+                <li><a href="javascript:void(0)"><img src="img/backgrounds/5.jpg" alt=""></a></li>
+                <li><a href="javascript:void(0)"><img src="img/backgrounds/6.jpg" alt=""></a></li>
+                <li><a href="javascript:void(0)"><img src="img/backgrounds/7.jpg" alt=""></a></li>
+                <li><a href="javascript:void(0)"><img src="img/backgrounds/8.jpg" alt=""></a></li>
+                <li><a href="javascript:void(0)"><img src="img/backgrounds/9.jpg" alt=""></a></li>
+                <li><a href="javascript:void(0)"><img src="img/backgrounds/10.jpg" alt=""></a></li>
+                <li><a href="javascript:void(0)"><img src="img/backgrounds/11.jpg" alt=""></a></li>
+                <li><a href="javascript:void(0)"><img src="img/backgrounds/12.jpg" alt=""></a></li>
+              </ul>
+              <h4>Menu Sub Trigger:</h4>
+            <ul id="menu-trigger">
+              <li><a href="javascript:void(0)" class="btn" data-trigger="click">Click</a></li>
+              <li><a href="javascript:void(0)" class="btn" data-trigger="mouseover">Hover</a></li>
+            </ul>
+              <h4>Menu Background:</h4>
+              <ul id="menu-backgrounds">
+                <li><a href="javascript:void(0)"><img src="img/backgrounds/menu1.png" alt=""></a></li>
+                <li><a href="javascript:void(0)"><img src="img/backgrounds/menu2.png" alt=""></a></li>
+                <li><a href="javascript:void(0)"><img src="img/backgrounds/menu3.png" alt=""></a></li>
+                <li><a href="javascript:void(0)"><img src="img/backgrounds/menu4.png" alt=""></a></li>
+              </ul>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid" id="main_wrapper">
+  <div class="row-fluid">
+    <div class="span2" id="sidebar">
+      <div id="icon-menu">
+        <ul>
+          <li class="circle">
+            <a href="profile.html" title="Profile">
+              <img src="img/avatar9.jpg" alt="">   
+            </a>
+          </li>
+          <li class="filter-box">
+            <input type="text" id="menuitem-filter" placeholder="e.g. widget">
+          </li>
+          <li class="menu-controller">
+            <a id="btn-menu-controller" href="javascript:void(0)">
+              <span><i class="icon-angle-up"></i></span>
+            </a>
+          </li>
+          <li data-keywords="home,dashboard,index,default,entry">
+            <a href="index.html" title="Dashboard">
+              <i class="icon-home"></i> <span>Home</span>
+            </a>
+          </li>
+          <li data-keywords="widget,window,block,ui">
+            <a href="widget.html" title="Widget" id="widget-menu">
+              <i class="icon-th-large"></i> <span>Widget</span>
+            </a>
+          </li>
+          <li data-keywords="table,data,rowlink,list,ui">
+            <a href="tables.html" title="Tables">
+              <i class="icon-th-list"></i> <span>Tables</span>
+            </a>
+          </li>
+          <li data-keywords="chart,pie,bar,line,speakline,dynamic,donut,stacked">
+            <a href="charts.html" title="Charts">
+              <i class="icon-bar-chart"></i> <span>Charts</span>
+            </a>
+          </li>
+          <li data-keywords="forms,editor,wizard,validate,editable,slider,ui">
+            <a href="forms.html" title="Forms">
+              <i class="icon-credit-card"></i> <span>Forms</span>
+              <span class="label label-success">5</span>
+            </a>
+            <ul class="sub-menus">
+              <li><a href="forms.html" title="Forms"> <span>Elements</span> </a> </li>
+              <li><a href="editor.html" title="Editor"> <span>Editor</span> </a> </li>
+              <li><a href="wizard.html" title="Wizard"> <span>Wizard</span> </a> </li>
+              <li><a href="validator.html" title="Validator"> <span>Validator</span> </a> </li>
+              <li><a href="editable.html" title="Editable"> <span>Editable</span> </a> </li>
+              <li><a href="javascript:void(0)" title="Sub Link">Sub Link</a></li>
+            </ul>
+          </li>
+          <li data-keywords="ui,table,interface,gallery,box,block,widget,timeline,grid">
+            <a href="ui.html" title="UI">
+              <i class="icon-camera"></i> <span>Interfaces</span>
+              <span class="label label-success">12</span>
+            </a>
+            <ul class="sub-menus">
+              <li><a href="ui.html" title="UI"> <span>Elements</span> </a> </li>
+              <li><a href="attr.html" title="Attr Box"> <span>Attr Box</span> </a></li>
+              <li><a href="cal.html" title="Calendar">Calendar</a></li>
+              <li><a href="buttons.html" title="Buttons"> <span>Buttons</span> </a> </li>
+              <li><a href="grid.html" title="Grid"> <span>Grid</span> </a> </li>
+              <li><a href="timeline.html" title="jQuery Timeline"><span>Timeline</span></a></li>
+              <li><a href="tabs.html" title="Tab">Tabs</a></li>
+              <li><a id="btn-tour" href="javascript:void(0)" title="Tour Guide">Guide Tour</a></li>
+              <li><a href="sliders.html" title="Sliders">Sliders</a></li>
+              <li><a href="noty.html" title="Notifications">Notifications</a></li>
+              <li><a href="accordion.html" title="Accordion">Accordion</a></li>
+              <li><a href="faq.html" title="FAQ">FAQ</a></li>
+            </ul> 
+          </li>
+          <li data-keywords="wizard,typo,text,font">
+            <a href="typography.html" title="Typography">
+              <i class="icon-font"></i> <span>Typography</span>
+            </a>
+          </li>         
+          <li class="current" data-keywords="gallery,login,profile,403,404,error,starter">
+            <a href="javascript:void(0)" title="Extra">
+              <i class="icon-legal"></i> <span>Extra</span>
+              <span class="label label-success">6</span>
+            </a>
+            <ul class="sub-menus">
+              <li><a href="gallery.html" title="Gallery"><i class="icon-picture"></i> Gallery</a></li>  
+              <li><a href="login.html" title="login"><i class="icon-user"></i> Login</a></li> 
+              <li><a href="profile.html" title="profile"><i class="icon-cog"></i> Profile</a></li>  
+              <li><a href="404.html" title="404"><i class="icon-eye-close"></i> 404</a></li>  
+              <li><a href="tickets.html" title="Tickets"><i class="icon-list"></i> Tickets</a></li>
+              <li><a href="starter.html" title="Starter"><i class="icon-question-sign"></i> Starter</a></li>
+            </ul>
+          </li>
+          <li data-keywords="faq,questions">
+            <a href="faq.html">
+              <i class="icon-question-sign"></i>
+              <span>FAQ</span>
+            </a>
+          </li>
+          <li data-keywords="profile,settings,custom,modal,personal">
+            <a href="#settings" role="button" data-toggle="modal" data-target="#settings">
+              <i class="icon-cog"></i> <span>Settings</span>
+            </a>
+            <div id="settings" class="modal hide fade" tabindex="-1" role="dialog"> 
+              <div class="modal-header"> 
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button> 
+                <h3 id="myModalLabel">Config Box
+                </h3> 
+              </div> 
+              <div class="modal-body"> 
+                <form class="form-horizontal" id="basic-form" method="get">
+
+                    <div class="control-group">
+                      <label class="control-label">Firstname (required)</label>
+                      <div class="controls">
+                        <input type="text" name="firstname" id="firstname" placeholder="lisa" required>
+                      </div>
+                    </div>
+
+                    <div class="control-group">
+                      <label class="control-label">lastname (required)</label>
+                      <div class="controls">
+                        <input type="text" name="lastname" id="lastname" placeholder="joe" required>
+                      </div>
+                    </div>
+
+                    <div class="control-group">
+                      <label class="control-label">email (required)</label>
+                      <div class="controls">
+                        <input name="email" id="email" type="email" placeholder="lisa@abc.com" required>
+                      </div>
+                    </div>
+
+                    <div class="control-group">
+                      <label class="control-label">Comment (requied)</label>
+                      <div class="controls">
+                        <textarea name="comment" id="comment" placeholder="balbal blala..." required></textarea>  
+                      </div>
+                    </div>
+
+                    <div class="form-actions">
+                      <button type="submit" class="btn btn-primary" data-dismiss="modal" aria-hidden="true">Save changes</button>
+                      <button type="button" class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
+                    </div>
+
+                  </form>           
+              </div> 
+            </div>
+          </li>
+          <li data-keywords="login,signin,profile,entry">
+            <a href="login.html">
+              <i class="icon-user"></i>
+              <span>Login</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <hr>
+
+      <div id="workspace">
+        <a href="" class="btn btn-danger"><i class="icon-plus"></i> Invoice Link</a>
+      </div>
+    </div>
+
+    <div class="span10" id="main">
+      <div class="row-fluid">
+        <div class="breadcrumbs-title">
+          Profile.
+          <div class="pull-right">
+            <img src="img/icons/bestseller.png" alt="">
+            <span>Balance: $927</span>
+          </div>
+          <div class="sub">
+            Lorem ipsum Esse adipisicing sed fugiat deserunt exercitation ut est aute aliqua amet reprehenderit voluptate irure consequat tempor cupidatat tempor mollit.
+          </div>
+        </div>
+        <ul id="breadcrumbs">
+          <li>
+            <a href="index.html">
+              <span>Home <i class="icon-angle-right"></i></span>
+            </a>
+          </li>
+          <li>
+            <a href="index.html">
+              <span>Path Here <i class="icon-angle-right"></i></span>
+            </a>
+          </li>
+          <li>
+            <a href="index.html">
+              <span>Dashboard <i class="icon-map-marker"></i></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      
+      <!--main section-->
+      <div class="well">
+        <ul class="nav nav-tabs">
+          <li class="active">
+            <a href="#profile" data-toggle="tab">Profile</a>
+          </li>
+          <li>
+            <a href="#password" data-toggle="tab">Password</a>
+          </li>
+        </ul>
+        <div id="myTabContent" class="tab-content">
+          <div class="tab-pane active in" id="profile">
+            <form id="tab">
+              <label>Username</label>
+              <input type="text" value="Lisa" class="input-xlarge">
+              <label>First Name</label>
+              <input type="text" value="Joe" class="input-xlarge">
+              <label>Last Name</label>
+              <input type="text" value="Smith" class="input-xlarge">
+              <label>Email</label>
+              <input type="text" value="jsmith@yourcompany.com" class="input-xlarge">
+              <label>Address</label>
+              <textarea rows="3" class="input-xlarge">
+2817 S 49th
+Apt 314
+San Jose, CA 95101
+              </textarea>
+              <label>Time Zone</label>
+              <select name="DropDownTimezone" id="DropDownTimezone" class="input-xlarge">
+                <option value="-12.0">(GMT -12:00) Eniwetok, Kwajalein</option>
+                <option value="-11.0">(GMT -11:00) Midway Island, Samoa</option>
+                <option value="-10.0">(GMT -10:00) Hawaii</option>
+                <option value="-9.0">(GMT -9:00) Alaska</option>
+                <option selected="selected" value="-8.0">(GMT -8:00) Pacific Time (US & Canada)</option>
+                <option value="-7.0">(GMT -7:00) Mountain Time (US & Canada)</option>
+                <option value="-6.0">(GMT -6:00) Central Time (US & Canada), Mexico City</option>
+                <option value="-5.0">(GMT -5:00) Eastern Time (US & Canada), Bogota, Lima</option>
+                <option value="-4.0">(GMT -4:00) Atlantic Time (Canada), Caracas, La Paz</option>
+                <option value="-3.5">(GMT -3:30) Newfoundland</option>
+                <option value="-3.0">(GMT -3:00) Brazil, Buenos Aires, Georgetown</option>
+                <option value="-2.0">(GMT -2:00) Mid-Atlantic</option>
+                <option value="-1.0">(GMT -1:00 hour) Azores, Cape Verde Islands</option>
+                <option value="0.0">(GMT) Western Europe Time, London, Lisbon, Casablanca</option>
+                <option value="1.0">(GMT +1:00 hour) Brussels, Copenhagen, Madrid, Paris</option>
+                <option value="2.0">(GMT +2:00) Kaliningrad, South Africa</option>
+                <option value="3.0">(GMT +3:00) Baghdad, Riyadh, Moscow, St. Petersburg</option>
+                <option value="3.5">(GMT +3:30) Tehran</option>
+                <option value="4.0">(GMT +4:00) Abu Dhabi, Muscat, Baku, Tbilisi</option>
+                <option value="4.5">(GMT +4:30) Kabul</option>
+                <option value="5.0">(GMT +5:00) Ekaterinburg, Islamabad, Karachi, Tashkent</option>
+                <option value="5.5">(GMT +5:30) Bombay, Calcutta, Madras, New Delhi</option>
+                <option value="5.75">(GMT +5:45) Kathmandu</option>
+                <option value="6.0">(GMT +6:00) Almaty, Dhaka, Colombo</option>
+                <option value="7.0">(GMT +7:00) Bangkok, Hanoi, Jakarta</option>
+                <option value="8.0">(GMT +8:00) Beijing, Perth, Singapore, Hong Kong</option>
+                <option value="9.0">(GMT +9:00) Tokyo, Seoul, Osaka, Sapporo, Yakutsk</option>
+                <option value="9.5">(GMT +9:30) Adelaide, Darwin</option>
+                <option value="10.0">(GMT +10:00) Eastern Australia, Guam, Vladivostok</option>
+                <option value="11.0">(GMT +11:00) Magadan, Solomon Islands, New Caledonia</option>
+                <option value="12.0">(GMT +12:00) Auckland, Wellington, Fiji, Kamchatka</option>
+              </select>
+              <div>
+                <button class="btn btn-primary">Update</button>
+              </div>
+            </form>
+          </div>
+          <div class="tab-pane fade" id="password">
+            <form id="tab2">
+              <label>New Password</label>
+              <input type="password" class="input-xlarge">
+
+              <label>Confirm New Password</label>
+              <input type="password" class="input-xlarge">
+
+              <div>
+                <button class="btn btn-primary">Update</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="back-top">
+  <a href="javascript:void(0)"><i class="icon-angle-up"></i></a>
+</div>
+
+<div class="copyright">
+  <p>Copyright &copy; Your Company 2013. All rights reserved.</p>
+</div>
+
+<ol id="tour">
+  <li data-class="filter-box" data-text="Next Please">
+    <h5>Welcome to gappro!</h5>
+    <p>Follow me please, type 'widget' to filter menu.</p>
+  </li>
+
+  <li data-class="filter-box" data-text="Next Please">
+    <h5>Did you see?</h5>
+    <p>Focus input box, then press 'ESC' key please.</p>
+  </li> 
+
+  <li data-class="menu-controller" data-text="Next Please">
+    <h5>Hide menu items.</h5>
+    <p>Click now, you can working with workspace.</p>
+  </li> 
+
+  <li data-class="menu-controller" data-text="Next Please">
+    <h5>Redo it.</h5>
+    <p>Click again to show menu.</p>
+  </li> 
+
+  <li data-id="widget-menu" data-text="Next Please">
+    <h5>Move mouse to widget icon.</h5>
+    <p>Drag widget-icon to top bar, then drop it.</p>
+  </li>
+
+  <li data-id="messages-box" data-text="Finish Tour" data-options="tipLocation:right">
+    <h5>You have created a persistent fav-link.</h5>
+    <p>Jump to another page to test it, or drag again to remove it.</p>
+  </li>
+</ol>
+
+<script src="js/jquery-1.7.2.min.js"></script>
+<script src="js/modernizr.mq.js"></script>
+<script src="js-webshim/extras/modernizr-custom.js"></script>
+<script src="js-webshim/polyfiller.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-ui-1.10.2.min.js"></script>
+<script src="js/prettify/prettify.js"></script>
+<script src="js/format/html-format.js"></script>
+<script src="js/bootstrap_growl/jquery.bootstrap-growl.min.js"></script>
+<script src="js/joyride/jquery.joyride-2.0.3.js"></script>
+<script src="js/jstorage/json2.js"></script>
+<script src="js/jstorage/jstorage.min.js"></script>
+<script src="js/gappro/config.js"></script>
+<script src="js/gappro/gappro.js"></script>
+<script src="js/application.js"></script>
+<script src="js/fix/ios-orientationchange-fix.js"></script>
+</body>
+</html>

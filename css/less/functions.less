@@ -1,0 +1,122 @@
+/* Functions */
+
+.rounded-corners (@radius: 4px) {
+    -o-border-radius: @radius;
+    -ms-border-radius: @radius;
+    -moz-border-radius: @radius;
+    -webkit-border-radius: @radius;
+    border-radius: @radius;
+}
+
+.top-rounded-corners (@radius: 4px) {
+    -o-border-top-left-radius: @radius;
+    -ms-border-top-left-radius: @radius;
+    -moz-border-top-left-radius: @radius;
+    -webkit-border-top-left-radius: @radius;
+    border-top-left-radius: @radius;
+
+    -o-border-top-right-radius: @radius;
+    -ms-border-top-right-radius: @radius;
+    -moz-border-top-right-radius: @radius;
+    -webkit-border-top-right-radius: @radius;
+    border-top-right-radius: @radius;
+}
+
+.top-left-rounded-corners (@radius: 4px) {
+    -o-border-top-left-radius: @radius;
+    -ms-border-top-left-radius: @radius;
+    -moz-border-top-left-radius: @radius;
+    -webkit-border-top-left-radius: @radius;
+    border-top-left-radius: @radius;
+}
+
+.top-right-rounded-corners (@radius: 4px) {
+    -o-border-top-right-radius: @radius;
+    -ms-border-top-right-radius: @radius;
+    -moz-border-top-right-radius: @radius;
+    -webkit-border-top-right-radius: @radius;
+    border-top-right-radius: @radius;
+}
+
+.bottom-rounded-corners (@radius: 4px) {
+    -o-border-bottom-left-radius: @radius;
+    -ms-border-bottom-left-radius: @radius;
+    -moz-border-bottom-left-radius: @radius;
+    -webkit-border-bottom-left-radius: @radius;
+    border-bottom-left-radius: @radius;
+
+    -o-border-bottom-right-radius: @radius;
+    -ms-border-bottom-right-radius: @radius;
+    -moz-border-bottom-right-radius: @radius;
+    -webkit-border-bottom-right-radius: @radius;
+    border-bottom-right-radius: @radius;
+}
+
+.bottom-left-rounded-corners (@radius: 4px) {
+    -o-border-bottom-left-radius: @radius;
+    -ms-border-bottom-left-radius: @radius;
+    -moz-border-bottom-left-radius: @radius;
+    -webkit-border-bottom-left-radius: @radius;
+    border-bottom-left-radius: @radius;
+}
+
+.bottom-right-rounded-corners (@radius: 4px) {
+    -o-border-bottom-right-radius: @radius;
+    -ms-border-bottom-right-radius: @radius;
+    -moz-border-bottom-right-radius: @radius;
+    -webkit-border-bottom-right-radius: @radius;
+    border-bottom-right-radius: @radius;
+}
+
+.border-bottom (@color: #202020, @alpha: 0.3, @width: 1px) {
+    border-bottom: @width solid @color;
+    border-bottom: @width solid rgba(0, 0, 0, @alpha);
+}
+
+.border-top (@color: #202020, @alpha: 0.3) {
+    border-top: 1px solid @color;
+    border-top: 1px solid rgba(0, 0, 0, @alpha);
+}
+
+.border-black (@color: #222222, @alpha: 0.2, @width: 1px) {
+    border: @width solid @color;
+    border: @width solid rgba(0, 0, 0, @alpha);
+}
+
+.background-black (@color: #222222, @alpha: 0.2) {
+    background-color: @color;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, @alpha);
+}
+
+.split-column (@count: 2, @color: #2a2a2a) {
+    -moz-column-count: @count;
+    -webkit-column-count: @count;
+    column-count: @count;   
+
+    -moz-column-rule: 1px solid @color;
+    -webkit-column-rule: 1px solid @color;
+}
+
+.shadow-black() {
+    -o-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.06) inset, 0 0 2px #000000;
+    -ms-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.06) inset, 0 0 2px #000000;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.06) inset, 0 0 2px #000000;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.06) inset, 0 0 2px #000000;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.06) inset, 0 0 2px #000000;
+}
+
+.none-box-shadow() {
+    -o-box-shadow: none;
+    -ms-box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.transition() { 
+    -webkit-transition: all .25s;
+    -moz-transition: all .25s;
+    -ms-transition: all .25s;
+    -o-transition: all .25s;
+    transition: all .25s;
+}

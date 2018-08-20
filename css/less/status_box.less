@@ -1,0 +1,30 @@
+.status-box {
+    width: 60px;
+    height: 45px;
+    text-align: center;
+    .background-black(#202020, 0.3);
+    .rounded-corners;
+}
+
+.status-box.special {
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+}
+
+.status-box .progress {
+    margin: 4px;
+    height: 8px;
+}
+ 
+.status-box.bad strong {
+    color: red;
+    /*background: #ffc773;*/
+}
+
+.status-box.nice strong  {
+    color: green;
+    /*background: #c9de96;*/
+}

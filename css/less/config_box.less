@@ -1,0 +1,44 @@
+// config-box
+
+#config-box {
+    .border-black;
+    background-color: #343434;
+    padding: 10px;
+    position: absolute;
+    width: 162px;
+    height: 350px;
+    top: 70px;
+    left: -190px;
+    z-index: 9999;
+    .transition;
+
+    &:hover {left: 0px;}
+}
+
+#config-box .config-button { 
+    position: relative;
+    left: 172px;
+    top: -16px;
+    .rounded-corners(0px);
+}
+
+#config-box #backgrounds, 
+#config-box #menu-trigger, 
+#config-box #menu-backgrounds {
+    list-style-type: none; 
+    margin-left: 0px;
+}
+#config-box #backgrounds li, 
+#config-box #menu-trigger li, 
+#config-box #menu-backgrounds li {
+    display: inline-block; 
+    margin-right: 15px; 
+    margin-bottom: 4px;
+}
+#config-box #backgrounds li a img,
+#config-box #menu-trigger li a img,
+#config-box #menu-backgrounds li a img {
+    height: 20px;
+    width: 20px;
+    .border-black;
+}

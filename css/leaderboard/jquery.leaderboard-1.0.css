@@ -1,0 +1,89 @@
+/*!
+ * jqLeaderboard Plugin
+ * https://github.com/boostbob/jquery.leaderboard
+ *
+ * Copyright 2013
+ * Released under the MIT license
+ *
+ * Created: 04/2013
+ * Author: Bob Wang
+ * https://github.com/boostbob/
+ */
+
+/* leaderboard */
+.leaderboard {
+    background-color: #222222;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.leaderboard .total {
+    clear: both;
+    display: block;
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #336699;
+}
+
+.leaderboard h3, .leaderboard h4{ 
+    text-align: center;
+}
+
+.leaderboard ul {
+    cursor: pointer;
+    float: left;
+    list-style-type: none;
+    border-left: 1px solid #272727;
+    padding: 4px;
+}
+
+.leaderboard ul li.title {
+    cursor: text;
+    font-weight: bold;
+    list-style: none;
+    border-bottom: 1px solid #272727;
+}
+
+.leaderboard ul li.rank { 
+    cursor: text;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #f8941c;
+    
+    -o-border-radius: 200px;
+    -ms-border-radius: 200px;
+    -moz-border-radius: 200px;
+    -webkit-border-radius: 200px;
+    border-radius: 200px;
+
+    background-color: #202020;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+.leaderboard ul li.hover {
+    background-color: #202020;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2);
+    color: #666;
+}
+
+.leaderboard ul li.selected {
+    background-color: #1b1b1b;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.4);
+    color: #336699;
+}
+
+.leaderboard ul li .name {
+    text-transform: capitalize;
+}
+
+.leaderboard ul li .value {
+    text-align: right;
+    float: right;
+    font-size: 1em;
+}
